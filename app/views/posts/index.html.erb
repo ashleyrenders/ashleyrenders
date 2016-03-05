@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+<div class="posts">
+  <% @posts.each do |post| %>
+  <a href="/posts/<%=post.id%>">
+    <div class="post">
+      <img src="<%=post.img%>" alt="<%= post.title %> photo" />
+      <h1> <%= post.title %> </h1>
+      <p>
+        <%= post.body %>
+      </p>
+    </div>
+  </a>
+  <% end %>
+</div>
+
+<%= render 'shared/newsletter_small' %>

@@ -1,0 +1,456 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+}
+
+body a:hover {
+  color: #f36;
+}
+
+@font-face {
+  font-family: GeorgiaItalic;
+  src: url(georgia_italic.ttf);
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 6.7px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.strong {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.intro {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: GeorgiaItalic;
+}
+
+.container {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  letter-spacing: 0.5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  object-position: 0 -150px;
+}
+
+.menu {
+  margin: 15px auto 5px;
+  text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+}
+
+.menu-item span {
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  top: 13px;
+}
+
+.active {
+  color: #f36;
+  font-size: 10px;
+}
+
+.banner {
+  width: 100%;
+  height: 650px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.banner-photo {
+}
+
+.newsletter-signup {
+  clear: both;
+  margin: 24px auto;
+  padding: 25px 0 35px;
+  border: 1px solid #777;
+  border-left: none;
+  border-right: none;
+  color: #333;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.newsletter-signup h3 {
+  padding-bottom: 15px;
+  margin: -3px 70px 0;
+}
+
+.newsletter-signup label {
+  display: none;
+}
+
+.newsletter-signup .mc-field-group {
+  float: left;
+  width: 40%;
+}
+
+.newsletter-signup .mc-field-group input {
+  width: 70%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  height: 30px;
+}
+
+#mc-embedded-subscribe {
+  background-color: #333;
+  color: #eee;
+  border: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  width: 80px;
+  height: 30px;
+}
+
+#mc-embedded-subscribe:hover {
+  background-color: #f36;
+}
+
+.box {
+  margin: 0;
+  width: 400px;
+  height: 200px;
+  float: right;
+  border: 1px solid #777;
+  clear: none;
+}
+
+.box .mc-field-group {
+  width: 150px;
+  margin: 0 23px;
+
+}
+
+.box .mc-field-group input {
+  width: 100%;
+}
+
+.box h3 {
+  margin-bottom: 10px;
+}
+
+.box #mc-embedded-subscribe {
+  margin: 15px auto;
+}
+
+.opt-in {
+  clear: both;
+  text-align: center;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.opt-in label {
+  display: none;
+}
+
+.opt-in .mc-field-group {
+  float: left;
+  width: 40%;
+}
+
+.opt-in .mc-field-group input {
+  width: 70%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  height: 30px;
+}
+
+.copy {
+  clear: both;
+  height: auto;
+  padding: 20px;
+}
+
+.copy p {
+  line-height: 25px;
+  color: #333;
+}
+
+.break {
+  height: 250px;
+  margin: 30px 0 50px;
+  font-family: GeorgiaItalic;
+}
+
+.break .photo {
+  float: left;
+  height: 250px;
+}
+
+.break h2 {
+  padding: 80px 40px 80px 420px;
+  line-height: 30px;
+  font-weight: 800;
+}
+
+.call-to-action {
+  margin: 40px 100px 0;
+  line-height: 25px;
+  font-family: GeorgiaItalic;
+}
+
+.about-intro {
+  margin: 30px 20px 0;
+}
+
+.about-intro .about-text {
+  display: inline-block;
+  float: left;
+  width: 490px;
+  margin: 45px 0;
+  line-height: 32px;
+}
+
+.services {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.service {
+  display: inline-block;
+  padding: 0 20px;
+  margin: 20px 0 60px;
+  width: 280px;
+}
+
+.service:nth-child(3) {
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+}
+
+.service img {
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+  margin-bottom: 30px;
+}
+
+.serv-title {
+  font-size: 21px;
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.post {
+  width: 220px;
+  height: 310px;
+  text-align: center;
+  margin: 19px;
+  display: inline-block;
+  float: left;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+}
+
+.post img {
+  width: 220px;
+  height: 220px;
+}
+
+.post h1 {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.post p {
+  font-size: 12px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.post-title {
+  text-align: center;
+}
+
+.new-post {
+  margin: 0 auto 20px;
+  padding: 25px 0 35px;
+  border: 1px solid #777;
+  color: #333;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+.new-post h2 {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  margin-top: -3px;
+}
+
+.new-post .field {
+  float: left;
+  margin: 0 20px;
+}
+
+.new-post .field input {
+  width: 100%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  height: 30px;
+}
+
+.new-post .field textarea {
+  width: 100%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+}
+
+.actions input {
+  background-color: #333;
+  color: #eee;
+  border: none;
+  height: 24px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  width: 80px;
+  height: 30px;
+}
+
+.actions input:hover {
+  background-color: #f36;
+}
+
+.footer {
+  clear: both;
+  margin: 30px auto;
+  text-align: center;
+  position: relative;
+}
+
+.footer .social-media {
+  display: inline-block;
+}
+
+.footer .social-media img {
+  width: 14px;
+  margin: 0 10px;
+}
+
+.footer .copyright {
+  clear: both;
+  font-size: 10px;
+}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-width: 480px){
+  .tag {
+    margin: 0 40px;
+  }
+
+  .banner {
+    height: 220px;
+  }
+
+  .newsletter-signup {
+    margin: 20px 20px;
+    padding: 20px 10px;
+  }
+
+  .newsletter-signup .mc-field-group {
+    width: 50%;
+  }
+
+  #mc-embedded-subscribe {
+    margin-top: 10px;
+  }
+
+  .services {
+    margin: 20px auto 0;
+    text-align: center;
+  }
+
+  .service {
+    display: inline-block;
+    border: none;
+    float: none;
+  }
+
+  .posts {
+    margin: 20px auto 0;
+    text-align: center;
+  }
+
+  .post {
+    display: inline-block;
+    float: none;
+    width: 80%;
+  }
+
+  .post img {
+    width: 100%;
+    height: 200px;
+  }
+}
