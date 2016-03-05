@@ -1,0 +1,12 @@
+<p id="notice"><%= notice %></p>
+
+<%= content_tag "div", class:'banner-info', data: {image: @post.img} do %>
+<% end %>
+
+<span class="strong post-title"><%= @post.title %></span>
+
+<p>
+  <%= @post.body %>
+</p>
+
+<%= render 'shared/newsletter_small' %>

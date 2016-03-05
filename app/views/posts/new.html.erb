@@ -1,0 +1,17 @@
+<%= render 'form' %>
+
+<p id="notice"><%= notice %></p>
+
+<% @posts.each do |post| %>
+  <div class="post">
+    <a href="/posts/<%=post.id%>">
+      <img src="<%=post.img%>" alt="<%= post.title %> photo" />
+      <h1> <%= post.title %> </h1>
+    </a>
+      <%= link_to 'Edit', edit_post_path(post) %>
+      <%= link_to 'Delete', post, method: 'delete' %>
+      <p>
+        <%= post.body %>
+      </p>
+  </div>
+<% end %>

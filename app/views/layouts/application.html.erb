@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ashley Renders</title>
+  <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css" media="screen" title="no title" charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat|Josefin+Sans|Raleway' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <!-- <%= image_tag('logo.gif', class: 'logo') %> -->
+      <p class="notice">
+        <%= notice %>
+      </p>
+      <div class="menu">
+        <a href="<%= about_index_path %>"><div class="menu-item"><span>about</span></div></a><a href="<%= work_with_me_index_path %>"><div class="menu-item"><span>work with me</span></div></a><a href="<%= posts_path %>"><div class="menu-item"><span>blog</span></div></a><a href="<%= contacts_path %>"><div class="menu-item"><span>Contact</span></div></a>
+      </div>
+      <div class="banner">
+
+      </div>
+    </div>
+    <div class="body">
+      <%= yield %>
+    </div>
+    <div class="footer">
+      <div class="social-media"><a href="https://twitter.com/iamrenders"><img src="<%= asset_path "assets/twitter.png" %>" /></a></div>
+      <div class="social-media"><a href="https://www.instagram.com/strong.feelings/"><img src="<%= asset_path "assets/instagram.png" %>" /></a></div>
+      <div class="social-media"><a href="https://ca.linkedin.com/in/ashley-renders-09102722"><img src="<%= asset_path "assets/linkedin.png" %>" /></a></div>
+      <div class="social-media"><a href="https://www.facebook.com/ashleyrenders"><img src="<%= asset_path "assets/facebook.png" %>" /></a></div>
+      <div class="social-media"><a href="mailto:renders.ashley@gmail.com"><img src="<%= asset_path "assets/mail.png" %>" /></a></div>
+      <div class="copyright">
+        <span>&copy;2016 Ashley Renders</span><br><span>web designed by Dorian Thornton</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
