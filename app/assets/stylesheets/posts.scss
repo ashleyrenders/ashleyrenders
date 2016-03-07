@@ -1,3 +1,85 @@
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.posts {
+  margin-top: 50px;
+}
+
+.post {
+  width: 220px;
+  height: 305px;
+  text-align: center;
+  margin: 19px;
+  display: inline-block;
+  float: left;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+}
+
+.post img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.post-body {
+  font-size: 12px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.post-title {
+  margin: 5px 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+.full-post {
+  margin: 50px auto 70px;
+  width: 100%;
+  text-align: center;
+}
+
+.full-post .post-body {
+  margin: 30px 30px 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.new-post {
+  margin: 0 auto 20px;
+  padding: 25px 0 35px;
+  border: 1px solid #777;
+  color: #333;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+.new-post h2 {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  margin-top: -3px;
+}
+
+.new-post .field {
+  float: left;
+  margin: 0 20px;
+}
+
+.new-post .field input {
+  width: 100%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  height: 30px;
+}
+
+.new-post .field textarea {
+  width: 100%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+}

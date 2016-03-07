@@ -1,0 +1,14 @@
+<div class="instagram">
+  <span class="title linotype">Follow me on Instagram</span>
+  <div id="instafeed">
+    <script type="text/javascript">
+      var feed = new Instafeed({
+          get: 'user',
+          userId: '54552992',
+          limit: '6',
+          accessToken: "<%= ENV['instagram_access_token'] %>"
+      });
+      feed.run();
+    </script>
+  </div>
+</div>

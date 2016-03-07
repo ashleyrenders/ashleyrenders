@@ -2,6 +2,21 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.contact {
-  color: blue;
+.newsletter-signup input {
+  text-align: center;
+  height: 30px;
+  width: 200px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+}
+
+.newsletter-signup textarea#contact_body {
+  height: 200px;
+  width: 300px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+}
+
+.newsletter-signup .actions {
+  margin-top: 20px;
 }
