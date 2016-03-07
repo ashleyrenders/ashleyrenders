@@ -3,10 +3,11 @@
 <%= content_tag "div", class:'banner-info', data: {image: @post.img} do %>
 <% end %>
 
-<span class="strong post-title"><%= @post.title %></span>
+<div class="full-post">
+  <span class="strong post-title linotype"><%= @post.title %></span>
+  <p class="post-body">
+    <%= @post.body %>
+  </p>
+</div>
 
-<p>
-  <%= @post.body %>
-</p>
-
-<%= render 'shared/newsletter_small' %>
+<%= render 'shared/newsletter_blog' %>

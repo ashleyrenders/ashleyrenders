@@ -1,16 +1,20 @@
 <p id="notice"><%= notice %></p>
+<%= content_tag "div", class:'banner-info', data: {image: 'assets/blog.gif'} do %>
+<% end %>
 <div class="posts">
   <% @posts.each do |post| %>
-  <a href="/posts/<%=post.id%>">
-    <div class="post">
+
+  <div class="post">
+    <a href="/posts/<%=post.id%>">
       <img src="<%=post.img%>" alt="<%= post.title %> photo" />
-      <h1> <%= post.title %> </h1>
-      <p>
-        <%= post.body %>
-      </p>
-    </div>
-  </a>
+      <p class='post-title linotype'> <%= post.title %> </p>
+    </a>
+    <p class='post-body'>
+      <%= post.body %>
+    </p>
+  </div>
+
   <% end %>
 </div>
 
-<%= render 'shared/newsletter_small' %>
+<%= render 'shared/newsletter_blog' %>

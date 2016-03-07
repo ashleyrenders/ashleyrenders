@@ -4,6 +4,7 @@ class ContactsController < ApplicationController
   # GET /contacts
   # GET /contacts.json
   def index
+    @contact = Contact.new
     @contacts = Contact.all
   end
 

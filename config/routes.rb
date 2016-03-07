@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
-  resources :contacts
+  resources :contacts, only: [:index]
   resources :posts
   resources :about, only: [:index]
   resources :home, only: [:index]
   resources :work_with_me, only: [:index]
-  resources :contact, only: [:index]
 
   root 'home#index'
 
