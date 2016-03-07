@@ -25,10 +25,11 @@
   border-left: 1px solid #eee;
 }
 
-.service img {
+.service img, .service iframe {
   display: block;
   margin: 0 auto;
   width: 280px;
+  height: 187px;
   margin-bottom: 30px;
 }
 
