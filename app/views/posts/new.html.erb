@@ -4,6 +4,8 @@
 
 <% @posts.each do |post| %>
   <div class="post">
+    <%= link_to 'Edit', edit_post_path(post) %>
+    <%= link_to 'Delete', post, method: 'delete' %>
     <a href="/posts/<%=post.id%>">
       <img src="<%=post.img%>" alt="<%= post.title %> photo" />
       <p class="post-title linotype"> <%= post.title %> </p>
@@ -11,7 +13,5 @@
       <p class="post-body">
         <%= post.body %>
       </p>
-      <%= link_to 'Edit', edit_post_path(post) %>
-      <%= link_to 'Delete', post, method: 'delete' %>
   </div>
 <% end %>
