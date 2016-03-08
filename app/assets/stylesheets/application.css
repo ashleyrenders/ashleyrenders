@@ -12,6 +12,8 @@
  *
  *= require_tree .
  *= require_self
+ *= require owl.carousel
+ *= require owl.theme
  */
 
 body {
@@ -158,11 +160,7 @@ p {
   height: 650px;
   background-size: 100%;
   background-repeat: no-repeat;
-  margin-bottom: 60px;
-}
-
-.flexslider {
-  display: none;
+  margin-bottom: 20px;
 }
 
 .newsletter-signup {
@@ -254,7 +252,7 @@ label {
 .instagram {
   margin: 20px auto;
   text-align: center;
-  font-family: Linotype;
+
 }
 
 #instafeed {
@@ -415,9 +413,19 @@ label {
   padding: 4px;
 }
 
+.newsletter-footer #mc-embedded-subscribe:hover {
+  background-color: #333;
+  opacity: 0.5;
+}
+
 .footer .social-media {
   padding-top: 50px;
   height:50px;
+}
+
+.footer .social-media img:hover, .footer a:hover p {
+  color: #111;
+  opacity: 0.5;
 }
 
 .footer .social-media img {
