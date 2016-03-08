@@ -1,15 +1,14 @@
 Rails.application.routes.draw do
   resources :contacts, only: [:index]
-  resources :posts
+  resources :posts, only: [:splash]
   resources :about, only: [:index]
   resources :home, only: [:index]
   resources :work_with_me, only: [:index]
 
   root 'home#index'
 
-  # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
-  get 'hello/there' => 'posts#makinganewone'
+  # Until we can style blog posts better
+  get 'posts' => 'posts#splash'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
