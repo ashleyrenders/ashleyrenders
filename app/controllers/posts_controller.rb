@@ -1,6 +1,12 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
 
+
+  # ONLY UNTIL WE CAN BETTER FORMAT BLOG POSTS
+  def splash
+    render :'posts/splash'
+  end
+
   # GET /posts
   # GET /posts.json
   def index
@@ -12,8 +18,8 @@ class PostsController < ApplicationController
   def show
   end
 
-  # GET /posts/new
-  def makinganewone
+  # GET /posts/new THIS WILL CHANGE ONCE WE HAVE A REAL ADMIN
+  def new
     @post = Post.new
     @posts = Post.all
     render :'posts/new'
