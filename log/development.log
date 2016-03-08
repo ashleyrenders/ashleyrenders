@@ -59972,3 +59972,150 @@ Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (2.8ms)
   Rendered shared/_newsletter_footer.html.erb (0.1ms)
 Completed 200 OK in 76ms (Views: 75.3ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138)
+
+
+Started GET "/" for ::1 at 2016-03-07 22:18:50 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered shared/_newsletter.html.erb (0.3ms)
+  Rendered shared/_opt_in.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (512.1ms)
+  Rendered shared/_newsletter_footer.html.erb (0.6ms)
+Completed 200 OK in 658ms (Views: 639.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.self-d067e26f5be82be026a54e6a09d5f85ecbdf69382299e3d6b2f359755a564594.css?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/contact.self-1a48ce749dfb99dab3e291b9cb8e645e1d1944b36cb0e1632c1688a95dfb4223.css?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/flexslider.self-f9a29b03188b2e0ef89c03e7a06aba7b30ffb34f1284493e087933d94e1070d0.css?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/posts.self-729c32747780e124f65942587fd31b1c86c253b2b007ddc7314fb857a39d676b.css?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/splash.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/work_with_me.self-d15debb2d10431d4b7b197727bc838c96ab612080ef0180bf8f57191b22aaa02.css?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/application.self-0a3ab333306b4d7f716b9f85130be6652b578744278a63a0dd06c88bde00f99d.css?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/instafeed.min.self-aafdd35868a90560c5b4708a9ee201e4a3cc76cb9ce42cb60904029e95d7bad2.js?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/jquery.flexslider.self-2b4fb7025ec1a4721c4f4ed7396e2a0882064e38f48c1dd20b19e7c4bf637e71.js?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/splash.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/work_with_me.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/application.self-5aa61c3c0701592e82dded8958ce2eebc8cfcd17bae6e678fb8a0ca9b78355fe.js?body=1" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/work-with-me-f2ff4196807e9b072882c298bda45ebf1a17173cc8283aecacaadbf4582829e7.jpg" for ::1 at 2016-03-07 22:18:51 -0800
+
+
+Started GET "/assets/banner-38d3430acef6eeec202a026c540e6be8eed52ba08ad4e4137922ba14c577ebdb.jpg" for ::1 at 2016-03-07 22:18:52 -0800
+
+
+Started GET "/assets/about-9ad6b8cadd3b206547f9321b72415bff9110c2ccaa53231b4739e8eab6d4f44e.jpg" for ::1 at 2016-03-07 22:18:52 -0800
+
+
+Started GET "/assets/content1-ec633c84ad6d1dbcb5ba1e40c13596f98ed5346b43c5e78c8752b3c304f3a141.jpg" for ::1 at 2016-03-07 22:18:52 -0800
+
+
+Started GET "/assets/twitter.png" for ::1 at 2016-03-07 22:18:52 -0800
+
+
+Started GET "/assets/instagram.png" for ::1 at 2016-03-07 22:18:52 -0800
+
+
+Started GET "/assets/georgia_italic.ttf" for ::1 at 2016-03-07 22:18:52 -0800
+
+
+Started GET "/assets/linkedin.png" for ::1 at 2016-03-07 22:18:52 -0800
+
+
+Started GET "/assets/facebook.png" for ::1 at 2016-03-07 22:18:52 -0800
+
+
+Started GET "/assets/mail.png" for ::1 at 2016-03-07 22:18:52 -0800
+
+
+Started GET "/assets/flexslider-icon.woff" for ::1 at 2016-03-07 22:18:52 -0800
+
+
+Started GET "/about" for ::1 at 2016-03-07 22:19:00 -0800
+Processing by AboutController#index as HTML
+  Rendered shared/_newsletter_box.html.erb (0.5ms)
+  Rendered shared/_instagram.html.erb (0.4ms)
+  Rendered about/index.html.erb within layouts/application (3.7ms)
+  Rendered shared/_newsletter_footer.html.erb (0.8ms)
+Completed 200 OK in 145ms (Views: 143.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/about.gif" for ::1 at 2016-03-07 22:19:00 -0800
+
+
+Started GET "/work_with_me" for ::1 at 2016-03-07 22:19:06 -0800
+Processing by WorkWithMeController#index as HTML
+  Rendered shared/_opt_in.html.erb (1.3ms)
+  Rendered work_with_me/index.html.erb within layouts/application (5.6ms)
+  Rendered shared/_newsletter_footer.html.erb (0.1ms)
+Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/beach.gif" for ::1 at 2016-03-07 22:19:06 -0800
+
+
+Started GET "/assets/lights.gif" for ::1 at 2016-03-07 22:19:06 -0800
+
+
+Started GET "/assets/horse.gif" for ::1 at 2016-03-07 22:19:06 -0800
+
+
+Started GET "/assets/work-with-me.jpg" for ::1 at 2016-03-07 22:19:06 -0800
