@@ -83,6 +83,7 @@ p {
 }
 
 .intro {
+  padding-left: 4px;
   font-size: 20px;
   font-weight: 800;
   font-family: GeorgiaItalic;
@@ -157,9 +158,11 @@ p {
   height: 650px;
   background-size: 100%;
   background-repeat: no-repeat;
+  margin-bottom: 60px;
 }
 
-.banner-photo {
+.flexslider {
+  display: none;
 }
 
 .newsletter-signup {
@@ -215,7 +218,7 @@ label {
 }
 
 .box {
-  margin: 52px 0 0;
+  margin: 20px 0 0;
   padding: 30px 30px 10px;
   width: 360px;
   height: 210px;

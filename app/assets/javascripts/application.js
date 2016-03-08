@@ -23,12 +23,23 @@ $(window).bind('page:change', function() {
 });
 function initPage() {
 
+  $('.flexslider').flexslider({
+    animation: "slide",
+    slideshow: "true",
+    slideshowSpeed: 7000,
+    animationSpeed: 1200,
+    start: function(slider) {
+                slider.flexAnimate(1);
+                slider.flexAnimate(0);
+            }
+  });
+
   //  banner setup
   if($('.banner-info').length){
     var img = $('.banner-info').data('image');
     $('.banner').css('background-image', 'url('+ img +')');
   } else {
-    $('.banner').css('background-image', "url('assets/banner.jpg')");
+    $('.flexslider').css('display', "block");
   }
 
   //  current page visible in menu
