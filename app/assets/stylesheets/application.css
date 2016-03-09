@@ -302,6 +302,10 @@ label {
   color: #333;
 }
 
+.thinner {
+  line-height: 10px;
+}
+
 .break {
   height: 250px;
   margin: 30px 0 50px;
