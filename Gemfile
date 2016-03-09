@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
@@ -13,6 +13,9 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'therubyracer', platforms: :ruby
 
 gem 'pg'
+
+# Puma web server is better
+gem 'puma'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -28,6 +31,9 @@ gem 'figaro'
 
 # Slider fefature
 gem 'owlcarousel-rails'
+
+# For Heroku platform features
+gem 'rails_12factor'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
