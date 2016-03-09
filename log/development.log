@@ -73052,3 +73052,34 @@ Started GET "/assets/slide3-ec633c84ad6d1dbcb5ba1e40c13596f98ed5346b43c5e78c8752
 
 
 Started GET "/assets/slide2-617893854eba5218c35f6aa4b33c8df0e8af430a7d7c4b4bc10697d8cbdc4d32.jpg" for ::1 at 2016-03-08 11:35:59 -0800
+
+
+Started GET "/" for ::1 at 2016-03-09 10:09:59 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered shared/_newsletter.html.erb (0.3ms)
+  Rendered shared/_opt_in.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (455.1ms)
+  Rendered shared/_newsletter_footer.html.erb (0.3ms)
+Completed 200 OK in 660ms (Views: 640.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1ff5be22f90cabee5e8725cb925b346efa3d044e006eec459744a31ff61f1e42.css?body=1" for ::1 at 2016-03-09 10:10:01 -0800
+
+
+Started GET "/assets/twitter.png" for ::1 at 2016-03-09 10:10:01 -0800
+
+
+Started GET "/assets/instagram.png" for ::1 at 2016-03-09 10:10:01 -0800
+
+
+Started GET "/assets/linkedin.png" for ::1 at 2016-03-09 10:10:01 -0800
+
+
+Started GET "/assets/georgia_italic.ttf" for ::1 at 2016-03-09 10:10:01 -0800
+
+
+Started GET "/assets/facebook.png" for ::1 at 2016-03-09 10:10:01 -0800
+
+
+Started GET "/assets/mail.png" for ::1 at 2016-03-09 10:10:01 -0800

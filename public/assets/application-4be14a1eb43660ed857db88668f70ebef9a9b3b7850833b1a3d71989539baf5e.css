@@ -1,0 +1,894 @@
+/* line 5, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/about.scss */
+.about-intro {
+  margin: 0 20px;
+}
+
+/* line 9, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/about.scss */
+.about-intro .about-text {
+  display: inline-block;
+  float: left;
+  width: 490px;
+  margin: 20px 0 10px;
+  line-height: 25px;
+  font-size: 15px;
+}
+/* line 5, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/contacts.scss */
+.newsletter-signup input {
+  text-align: center;
+  height: 30px;
+  width: 200px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+}
+
+/* line 13, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/contacts.scss */
+.newsletter-signup textarea#contact_body {
+  height: 200px;
+  width: 300px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* line 21, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/contacts.scss */
+.newsletter-signup .actions {
+  margin-top: 20px;
+}
+/* line 5, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/home.scss */
+.slider {
+  display: none;
+}
+
+/* line 9, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/home.scss */
+.slide {
+  height: 650px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/home.scss */
+.slide img {
+  width: 100%;
+  height: 650px;
+}
+
+/* line 20, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/home.scss */
+.slide-caption {
+  position: absolute;
+  width: 320px;
+  color: #fff;
+  text-align: left;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  font-family: GeorgiaItalic;
+}
+
+/* line 31, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/home.scss */
+.slide-caption a {
+  color: #fff;
+  font-family: 'Raleway';
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+/* line 38, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/home.scss */
+.slide-caption a:hover {
+  color: #fff;
+}
+
+/* line 42, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/home.scss */
+.caption-one {
+  right: 80px;
+  top: 55px;
+}
+
+/* line 47, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/home.scss */
+.caption-two {
+  left: 50px;
+  top: 60px;
+}
+
+/* line 52, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/home.scss */
+.caption-three {
+  left: 40px;
+  top: 50px;
+}
+/* line 5, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/posts.scss */
+.posts {
+  margin-top: 50px;
+}
+
+/* line 9, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/posts.scss */
+.post {
+  width: 220px;
+  height: 305px;
+  text-align: center;
+  margin: 19px;
+  display: inline-block;
+  float: left;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 20, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/posts.scss */
+.post img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* line 26, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/posts.scss */
+.post-body {
+  text-align: left;
+  padding: 0 20px;
+}
+
+/* line 31, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/posts.scss */
+.post-title {
+  margin: 5px 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* line 37, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/posts.scss */
+.full-post {
+  margin: 50px auto 70px;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 43, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/posts.scss */
+.full-post img {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  margin-bottom: 40px;
+}
+
+/* line 50, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/posts.scss */
+.full-post .post-body {
+  margin: 30px 30px 0;
+  line-height: 20px;
+}
+
+/* line 55, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/posts.scss */
+.new-post {
+  margin: 0 auto 20px;
+  padding: 25px 0 35px;
+  border: 1px solid #777;
+  color: #333;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+/* line 66, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/posts.scss */
+.new-post h2 {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  margin-top: -3px;
+}
+
+/* line 72, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/posts.scss */
+.new-post .field {
+  float: left;
+  margin: 0 20px;
+}
+
+/* line 77, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/posts.scss */
+.new-post .field input {
+  width: 100%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  height: 30px;
+}
+
+/* line 85, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/posts.scss */
+.new-post .field textarea {
+  width: 100%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+}
+/* line 5, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/work_with_me.scss */
+.services {
+  text-align: center;
+  margin-top: 50px;
+  color: #333;
+}
+
+/* line 11, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/work_with_me.scss */
+.serv-title {
+  font-size: 21px;
+  padding-bottom: 20px;
+}
+
+/* line 16, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/work_with_me.scss */
+.service {
+  display: inline-block;
+  padding: 0 20px;
+  margin: 20px 0 60px;
+  width: 280px;
+}
+
+/* line 23, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/work_with_me.scss */
+.service:nth-child(3) {
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+}
+
+/* line 28, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/work_with_me.scss */
+.service img, .service iframe {
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+  height: 187px;
+  margin-bottom: 30px;
+}
+
+/* line 36, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/work_with_me.scss */
+.rate {
+  font-weight: 800;
+  color: #111;
+}
+
+/* line 41, /Users/dorianthornton/Documents/math/web dev/ashley/yeahisaidit/app/assets/stylesheets/work_with_me.scss */
+.work-with-me p {
+  line-height: 20px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+
+
+ */
+
+
+body {
+  color: #333;
+  background: #eee;
+}
+
+body a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 400;
+}
+
+body a:hover {
+  color: #f36;
+}
+
+@font-face {
+  font-family: GeorgiaItalic;
+  src: url(georgia_italic.ttf);
+}
+
+@@font-face {
+  font-family: Linotype;
+  src: url(linotype.otf);
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 6.7px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.strong {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.title {
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.linotype {
+  font-family: Linotype;
+}
+
+.intro {
+  padding-left: 4px;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: GeorgiaItalic;
+}
+
+.whitewrapper {
+  background: #fff;
+  margin-top: -30px;
+}
+
+.container {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 30px 0;
+  letter-spacing: 0.5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#notice {
+  padding-top: 10px;
+}
+
+.logo {
+  /*width: 100%;
+  height: 100px;
+  object-fit: cover;
+  object-position: 0 -150px;*/
+  font-size: 40px;
+  text-align: center;
+  padding: 40px 0 -20px;
+  font-family: 'Marck Script';
+  text-transform: lowercase;
+}
+
+.logo:hover {
+  color: #333;
+}
+
+.menu {
+  margin: 0 auto 5px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+}
+
+.menu-item span {
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  top: 13px;
+}
+
+.active {
+  color: #f36;
+  font-size: 10px;
+}
+
+.banner {
+  width: 100%;
+  height: 650px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.newsletter-signup {
+  clear: both;
+  margin: 24px auto;
+  padding: 25px 100px 35px;
+  border: 1px solid #777;
+  border-left: none;
+  border-right: none;
+  color: #333;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.newsletter-signup h3 {
+  padding-bottom: 15px;
+  margin: -3px 70px 0;
+}
+
+label {
+  display: none;
+}
+
+.mc-field-group {
+  float: left;
+  width: 300px;
+  margin: 0 12px;
+}
+
+.mc-field-group input {
+  width: 250px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  height: 30px;
+}
+
+#mc-embedded-subscribe {
+  background-color: #333;
+  color: #eee;
+  border: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  width: 80px;
+  height: 30px;
+  margin: 2px 12px 0;
+}
+
+#mc-embedded-subscribe:hover {
+  background-color: #f36;
+}
+
+.box {
+  margin: 20px 0 0;
+  padding: 30px 30px 10px;
+  width: 360px;
+  height: 210px;
+  float: right;
+  border: 1px solid #777;
+  clear: none;
+}
+
+.box .mc-field-group {
+  width: 160px;
+  margin: 0 10px;
+
+}
+
+.box .mc-field-group input {
+  width: 100%;
+}
+
+.box h3 {
+  margin: 0 0 25px;
+  padding: 0;
+}
+
+.box .clear {
+  clear: both;
+}
+
+.box #mc-embedded-subscribe {
+  clear: both;
+  margin: 15px auto;
+}
+
+.instagram {
+  margin: 20px auto;
+  text-align: center;
+
+}
+
+#instafeed {
+  margin: 20px auto;
+}
+
+#instafeed a {
+  margin: 0 5px;
+}
+
+.opt-in {
+  clear: both;
+  text-align: center;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.opt-in label {
+  display: none;
+}
+
+.opt-in .mc-field-group {
+  float: left;
+  width: 200px;
+}
+
+.opt-in .mc-field-group input {
+  width: 200px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  height: 30px;
+}
+
+.opt-in #mc-embedded-subscribe {
+  margin: 3px 0;
+}
+
+.copy {
+  clear: both;
+  height: auto;
+  padding: 20px;
+}
+
+.copy p {
+  line-height: 25px;
+  color: #333;
+}
+
+.thinner {
+  line-height: 10px;
+}
+
+.break {
+  height: 250px;
+  margin: 30px 0 50px;
+  font-family: GeorgiaItalic;
+}
+
+.break .photo {
+  float: left;
+  height: 250px;
+  margin-left: 20px;
+}
+
+.break h2 {
+  padding: 80px 40px 80px 420px;
+  line-height: 30px;
+  font-weight: 800;
+}
+
+.call-to-action {
+  margin: 40px 100px 0;
+  line-height: 25px;
+  font-family: GeorgiaItalic;
+}
+
+.actions input {
+  background-color: #333;
+  color: #eee;
+  border: none;
+  height: 24px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  width: 80px;
+  height: 30px;
+}
+
+.actions input:hover {
+  background-color: #f36;
+}
+
+.footer {
+  clear: both;
+  margin: 30px auto;
+  text-align: center;
+  position: relative;
+  background: #eee;
+}
+
+.footer .first-row {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .social-media, .footer .newsletter-footer, .footer .logo {
+  margin: 20px;
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  float: left;
+}
+
+.footer .logo {
+  padding: 10px 20px;
+}
+
+.footer .logo:hover {
+  color: #333;
+}
+
+.footer .logo p {
+  font-size: 33px;
+  padding-top: 40px;
+}
+
+.newsletter-footer {
+  padding: 10px 80px;
+  width: 200px;
+  height: 100px;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  clear: none;
+}
+
+.newsletter-footer .mc-field-group {
+  clear:both;
+  width: 160px;
+  margin: 0 auto;
+}
+
+.newsletter-footer .mc-field-group input {
+  width: 200px;
+  margin: 5px 0;
+  padding-left: 10px;
+  height: 20px;
+  text-align: left;
+}
+
+.newsletter-footer .mc-field-group input:active {
+}
+
+.newsletter-footer h3 {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.newsletter-footer #mc-embedded-subscribe {
+  margin: 15px auto;
+  width: 130px;
+  height: 25px;
+  padding: 4px;
+}
+
+.newsletter-footer #mc-embedded-subscribe:hover {
+  background-color: #333;
+  opacity: 0.5;
+}
+
+.footer .social-media {
+  padding-top: 50px;
+  height:50px;
+}
+
+.footer .social-media img:hover, .footer a:hover p {
+  color: #111;
+  opacity: 0.5;
+}
+
+.footer .social-media img {
+  display: inline-block;
+  width: 16px;
+  margin: 0 10px;
+}
+
+.footer .copyright {
+  clear: both;
+  font-size: 10px;
+  margin: 0 auto 10px 40px;
+}
+
+.footer .copyright span {
+  margin: 0 10px;
+}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-width: 480px){
+  .tag {
+    margin: 0 40px;
+  }
+
+  .banner {
+    height: 220px;
+  }
+
+  .newsletter-signup {
+    margin: 20px 20px;
+    padding: 20px 10px;
+  }
+
+  .newsletter-signup .mc-field-group {
+    width: 50%;
+  }
+
+  #mc-embedded-subscribe {
+    margin-top: 10px;
+  }
+
+  .services {
+    margin: 20px auto 0;
+    text-align: center;
+  }
+
+  .service {
+    display: inline-block;
+    border: none;
+    float: none;
+  }
+
+  .posts {
+    margin: 20px auto 0;
+    text-align: center;
+  }
+
+  .post {
+    display: inline-block;
+    float: none;
+    width: 80%;
+  }
+
+  .post img {
+    width: 100%;
+    height: 200px;
+  }
+}
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
