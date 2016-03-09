@@ -73083,3 +73083,103 @@ Started GET "/assets/facebook.png" for ::1 at 2016-03-09 10:10:01 -0800
 
 
 Started GET "/assets/mail.png" for ::1 at 2016-03-09 10:10:01 -0800
+
+
+Started GET "/" for ::1 at 2016-03-09 10:18:37 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered shared/_newsletter.html.erb (0.4ms)
+  Rendered shared/_opt_in.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (364.5ms)
+  Rendered shared/_newsletter_footer.html.erb (0.6ms)
+Completed 200 OK in 569ms (Views: 548.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contacts.self-a67746a07a5cac53498e006f1cb87f1640e0b7124195c0d576c88e8bbac14e70.css?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/home.self-b500e164d5b76dd49abff33251b002dd578fdf1c28dad54e875cc724c3f94552.css?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/posts.self-729c32747780e124f65942587fd31b1c86c253b2b007ddc7314fb857a39d676b.css?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/about.self-71c65dd24efcf48184f38845b89b931c0f76ca4e9600a66d7261200a7c3f1261.css?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/splash.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/application.self-1ff5be22f90cabee5e8725cb925b346efa3d044e006eec459744a31ff61f1e42.css?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/work_with_me.self-d15debb2d10431d4b7b197727bc838c96ab612080ef0180bf8f57191b22aaa02.css?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/owl.carousel.self-aed126d4aa315202147b9de700e302c5b7f1b68cc8c44a68b116efb60671cd80.js?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/about.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/instafeed.min.self-aafdd35868a90560c5b4708a9ee201e4a3cc76cb9ce42cb60904029e95d7bad2.js?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/work_with_me.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/application.self-2ae08b6aa291a775c25cb6bb19e69f0738e170356143234676966910eb11e746.js?body=1" for ::1 at 2016-03-09 10:18:38 -0800
+
+
+Started GET "/assets/splash.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-09 10:18:39 -0800
+
+
+Started GET "/assets/twitter.png" for ::1 at 2016-03-09 10:18:39 -0800
+
+
+Started GET "/assets/instagram.png" for ::1 at 2016-03-09 10:18:39 -0800
+
+
+Started GET "/assets/linkedin.png" for ::1 at 2016-03-09 10:18:39 -0800
+
+
+Started GET "/assets/mail.png" for ::1 at 2016-03-09 10:18:39 -0800
+
+
+Started GET "/assets/facebook.png" for ::1 at 2016-03-09 10:18:39 -0800
+
+
+Started GET "/assets/georgia_italic.ttf" for ::1 at 2016-03-09 10:18:39 -0800
