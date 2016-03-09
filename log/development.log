@@ -73183,3 +73183,38 @@ Started GET "/assets/facebook.png" for ::1 at 2016-03-09 10:18:39 -0800
 
 
 Started GET "/assets/georgia_italic.ttf" for ::1 at 2016-03-09 10:18:39 -0800
+
+
+Started GET "/" for ::1 at 2016-03-09 12:27:44 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered shared/_newsletter.html.erb (0.3ms)
+  Rendered shared/_opt_in.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (345.3ms)
+  Rendered shared/_newsletter_footer.html.erb (0.3ms)
+Completed 200 OK in 498ms (Views: 481.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter.png" for ::1 at 2016-03-09 12:27:45 -0800
+
+
+Started GET "/assets/linkedin.png" for ::1 at 2016-03-09 12:27:45 -0800
+
+
+Started GET "/assets/instagram.png" for ::1 at 2016-03-09 12:27:45 -0800
+
+
+Started GET "/assets/mail.png" for ::1 at 2016-03-09 12:27:45 -0800
+
+
+Started GET "/assets/facebook.png" for ::1 at 2016-03-09 12:27:45 -0800
+
+
+Started GET "/assets/georgia_italic.ttf" for ::1 at 2016-03-09 12:27:45 -0800
+
+
+Started GET "/posts" for ::1 at 2016-03-09 12:27:48 -0800
+Processing by PostsController#splash as HTML
+  Rendered posts/splash.html.erb within layouts/application (1.7ms)
+  Rendered shared/_newsletter_footer.html.erb (0.4ms)
+Completed 200 OK in 124ms (Views: 123.3ms | ActiveRecord: 0.0ms)
