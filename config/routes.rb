@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :contacts, only: [:index]
+  resources :contacts, only: [:index, :create]
   resources :posts, only: [:splash]
   resources :about, only: [:index]
   resources :home, only: [:index]
