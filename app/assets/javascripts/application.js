@@ -34,6 +34,7 @@ function initPage() {
   //  banner setup
   if($('.banner-info').length){
     var img = $('.banner-info').data('image');
+    console.log(img);
     $('.banner').css('background-image', 'url('+ img +')');
   } else {
     $('.slider').css('display', "block");
