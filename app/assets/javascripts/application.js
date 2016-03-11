@@ -34,8 +34,18 @@ function initPage() {
   //  banner setup
   if($('.banner-info').length){
     var img = $('.banner-info').data('image');
+    var credit = $('.banner-info').data('credit');
+    if(credit == undefined){
+      credit = "";
+    }
+    var banner = $('.banner');
     console.log(img);
-    $('.banner').css('background-image', 'url('+ img +')');
+    banner.css('background-image', 'url('+ img +')');
+    if($('.photo-credit').length){
+      // Do nothing
+    } else {
+      banner.prepend("<p class='photo-credit'>" + credit + "</p>");
+    }
   } else {
     $('.slider').css('display', "block");
   }

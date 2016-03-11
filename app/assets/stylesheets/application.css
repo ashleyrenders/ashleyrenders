@@ -97,28 +97,16 @@ p {
 
 .header {
   font-family: 'Montserrat', sans-serif;
-  margin-top: 30px;
   text-align: center;
 }
 
 #notice {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .logo {
-  /*width: 100%;
-  height: 100px;
+  height: 250px;
   object-fit: cover;
-  object-position: 0 -150px;*/
-  font-size: 40px;
-  text-align: center;
-  padding: 40px 0 -20px;
-  font-family: 'Marck Script';
-  text-transform: lowercase;
-}
-
-.logo:hover {
-  color: #333;
 }
 
 .menu {
@@ -151,6 +139,15 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 20px;
+  position: relative;
+}
+
+.banner .photo-credit {
+  position: absolute;
+  bottom: -10px;
+  left: 245px;
+  font-size: 8px;
+  color: #aaa;
 }
 
 .newsletter-signup {
@@ -362,10 +359,15 @@ label {
 
 .footer .logo {
   padding: 10px 20px;
+  height: 120px;
+}
+
+.footer .logo img {
+  width: 100%;
 }
 
 .footer .logo:hover {
-  color: #333;
+  opacity: 0.7;
 }
 
 .footer .logo p {

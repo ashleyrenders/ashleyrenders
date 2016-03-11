@@ -2,6 +2,11 @@
 
 <%= content_tag "div", class:'banner-info', data: {image: @post.img} do %>
 <% end %>
+<% if false %>
+  <p class="photo=credit">
+    <%= @post.credit %>
+  </p>
+<% end %>
 
 <div class="full-post">
   <span class="strong post-title linotype"><%= @post.title %></span>
