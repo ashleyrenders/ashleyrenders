@@ -491,16 +491,29 @@ label {
   }
 
   .newsletter-signup {
-    margin: 20px 20px;
+    margin: 20px 0;
     padding: 20px 10px;
   }
 
+  .newsletter-signup h3 {
+    margin: 0 20px;
+  }
+
+  #mc_embed_signup_scroll {
+    text-align: center;
+  }
+
   .newsletter-signup .mc-field-group {
-    width: 50%;
+    margin: 2px auto;
+    width: 200px;
+  }
+
+  .clear {
+    clear: both;
   }
 
   #mc-embedded-subscribe {
-    margin-top: 10px;
+
   }
 
   .services {
