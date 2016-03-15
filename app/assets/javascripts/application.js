@@ -28,7 +28,8 @@ function initPage() {
     items: 1,
     autoPlay: true,
     stopOnHover: true,
-    pagination: false
+    pagination: false,
+    responsive: false
   });
 
   //  banner setup

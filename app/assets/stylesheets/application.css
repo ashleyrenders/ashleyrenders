@@ -115,6 +115,10 @@ p {
   text-align: center;
 }
 
+.menu .home img {
+  display: none;
+}
+
 .menu-item {
   display: inline-block;
   width: 180px;
@@ -445,12 +449,44 @@ label {
 
 /* #### Mobile Phones Portrait #### */
 @media screen and (max-width: 480px){
-  .tag {
-    margin: 0 40px;
+
+  .menu .home span {
+    display = none;
   }
 
-  .banner {
+  .menu .home img {
+    display: block;
+  }
+
+  .banner, .slide img {
     height: 220px;
+    width: 100%;
+  }
+
+  .slide a, .slide-caption {
+    width: 120px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .slide a {
+    margin-left: 2px;
+    font-size: 10px;
+  }
+
+  .caption-one {
+    top: 25px;
+    right: 25px;
+  }
+
+  .caption-two {
+    top: 10px;
+    left: 15px;
+  }
+
+  .caption-three {
+    top: 20px;
+    left: 30px;
   }
 
   .newsletter-signup {
