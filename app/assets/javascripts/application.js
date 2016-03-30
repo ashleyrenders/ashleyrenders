@@ -57,7 +57,6 @@ function initPage() {
     var path = window.location.href;
     var url = $(this).attr('href');
     var contains = path.indexOf(url) > -1;
-    console.log("url: " + url)
 
     if(contains && (url != '/') ){
       $(this).addClass('active');
