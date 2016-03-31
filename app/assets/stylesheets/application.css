@@ -359,16 +359,14 @@ label {
 }
 
 .footer .social-media, .footer .newsletter-footer, .footer .logo {
-  margin: 20px;
-  display: inline-block;
+  display: block;
   height: 100px;
   width: 200px;
-  float: left;
+  margin: 0 auto;
 }
 
 .footer .logo {
-  padding: 35px 20px;
-  height: 200px;
+  height: 50px;
   width: 300px;
 }
 
@@ -429,8 +427,8 @@ label {
 }
 
 .footer .social-media {
-  padding-top: 50px;
-  height:50px;
+  height: 50px;
+  margin-top: 13px;
 }
 
 .footer .social-media img:hover, .footer a:hover p {
@@ -447,7 +445,7 @@ label {
 .footer .copyright {
   clear: both;
   font-size: 10px;
-  margin: 0 auto 10px 40px;
+  margin: 0 auto 10px;
 }
 
 .footer .copyright span {
