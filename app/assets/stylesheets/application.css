@@ -294,6 +294,11 @@ label {
   padding: 20px 20px;
 }
 
+.link-in-body {
+  color: #2aa869;
+  font-weight: bold;
+}
+
 .copy p {
   line-height: 25px;
   color: #333;
