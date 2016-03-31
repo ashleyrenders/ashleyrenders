@@ -110,7 +110,8 @@ p {
 }
 
 .logo {
-  height: 250px;
+  height: 100px;
+  width: 700px;
   object-fit: cover;
 }
 
@@ -342,7 +343,7 @@ label {
 
 .footer {
   clear: both;
-  margin: 30px auto;
+  margin: 100px auto;
   text-align: center;
   position: relative;
   background: #fff;
@@ -366,8 +367,9 @@ label {
 }
 
 .footer .logo {
-  padding: 10px 20px;
-  height: 120px;
+  padding: 35px 20px;
+  height: 200px;
+  width: 300px;
 }
 
 .footer .logo img {
