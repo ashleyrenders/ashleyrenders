@@ -46,7 +46,7 @@ h3 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .bold {
@@ -58,20 +58,25 @@ p {
 }
 
 .strong {
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 1px;
   font-weight: 800;
-  text-transform: capitalize;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 20px;
   letter-spacing: 1px;
   text-transform: capitalize;
 }
 
 .linotype {
   font-family: Linotype;
+}
+
+.georgia {
+  font-family: Georgia;
+  font-size: 20px;
+
 }
 
 .intro {
@@ -285,7 +290,7 @@ label {
 .copy {
   clear: both;
   height: auto;
-  padding: 20px;
+  padding: 20px 20px;
 }
 
 .copy p {
@@ -305,8 +310,7 @@ label {
 
 .break .photo {
   float: left;
-  height: 250px;
-  margin-left: 20px;
+  height: 650px;
 }
 
 .break h2 {
