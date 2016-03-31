@@ -458,7 +458,7 @@ label {
 @media screen and (max-width: 480px){
 
   .menu .home span {
-    display = none;
+    display: none;
   }
 
   .menu .home img {

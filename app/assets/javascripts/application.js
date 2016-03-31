@@ -40,7 +40,6 @@ function initPage() {
       credit = "";
     }
     var banner = $('.banner');
-    console.log(img);
     banner.css('background-image', 'url('+ img +')');
     if($('.photo-credit').length){
       // Do nothing
