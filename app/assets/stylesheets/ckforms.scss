@@ -410,6 +410,8 @@
 
   .ck_description p {
     line-height: 1em;
+    width: 370px;
+    letter-spacing: 0.7px;
   }
 
   .ck_form, .ck_form * {
@@ -488,7 +490,10 @@
   .ck_image {
   	float: left;
   	margin: 4px 12px 0;
+  }
 
+  .ck_image img {
+    width: 200px;
   }
 
   /* Form fields */

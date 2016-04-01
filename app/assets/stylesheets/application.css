@@ -110,9 +110,8 @@ p {
 }
 
 .logo {
-  height: 250px;
-  width: 1000px;
-  object-fit: cover;
+  margin-top: 20px;
+  width: 800px;
 }
 
 .menu {
@@ -247,17 +246,25 @@ label {
 }
 
 .instagram {
+  font-family: Raleway;
   margin: 20px auto;
   text-align: center;
+}
 
+.instagram .title {
+  font-size: 30px;
 }
 
 #instafeed {
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 #instafeed a {
   margin: 0 5px;
+}
+
+#instafeed img {
+  width: 155px;
 }
 
 .opt-in {
@@ -348,7 +355,7 @@ label {
 
 .footer {
   clear: both;
-  margin: 100px auto;
+  margin: 60px auto;
   text-align: center;
   position: relative;
   background: #fff;
