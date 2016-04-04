@@ -6,11 +6,11 @@
   clear: both;
   margin: 44px auto 0;
   padding: 15px 100px;
-  border: 1px solid #777;
+  border: 2px solid #2aa869;
   border-left: none;
   border-right: none;
   color: #333;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 15px;
   line-height: 21px;
   text-align: center;
@@ -30,18 +30,34 @@
   text-align: center;
   height: 30px;
   width: 200px;
-  font-family: 'Josefin Sans', sans-serif;
+  // font-family: 'Josefin Sans', sans-serif;
   font-size: 14px;
+  background-color: #f8f7f7;
+  border-radius: 4px;
+  border: 1px solid #d6d6d6;
 }
 
 .new_contact .field textarea {
   height: 200px;
   width: 300px;
-  font-family: 'Josefin Sans', sans-serif;
+  // font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
   padding: 10px;
+  background-color: #f8f7f7;
+  border-radius: 4px;
+  border: 1px solid #d6d6d6;
 }
 
 .new_contact .actions {
   margin-top: 20px;
+}
+
+@media screen and (max-width: 480px){
+  .new_contact {
+    padding: 25px 0;
+
+    .new_contact {
+      padding: 10px 0;
+    }
+  }
 }
