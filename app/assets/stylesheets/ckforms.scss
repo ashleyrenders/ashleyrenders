@@ -147,7 +147,7 @@
   -moz-box-shadow: none;
   box-shadow: none;
   clear: both;
-  margin: 20px 0px;
+  margin: 20px 75px;
   text-align: center;
   }
 
@@ -427,11 +427,11 @@
   .ck_form_content, .ck_form_fields {
   	width: 50%;
   	float: left;
-  	padding: 40px 30px;
+  	padding: 40px 30px 10px;
   }
 
   .ck_form_fields {
-    padding-top: 50px;
+    padding-top: 100px;
   }
 
   .ck_form.ck_horizontal {
@@ -484,17 +484,17 @@
 
   .ck_form_content h3 {
     text-align: center;
-  	margin: 0px 0px 15px;
+  	margin: 0px 0px 10px;
   	font-size: 25px;
   	padding: 0px;
   }
 
 
   .ck_form_content p {
-  	font-size: 14px;
-    line-height: 1.25em;
+  	font-size: 18px;
+    line-height: 1.5em;
     letter-spacing: 0.7px;
-    text-align: justify;
+    padding: 40px 20px 0 0;
   }
 
   .ck_image {
@@ -602,8 +602,8 @@
     .ck_form {
     /* divider image */
   	background: #fff url(data:image/gif;base64,R0lGODlhAQADAIABAMzMzP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS41LWMwMTQgNzkuMTUxNDgxLCAyMDEzLzAzLzEzLTEyOjA5OjE1ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MUQ5NjM5RjgxQUVEMTFFNEJBQTdGNTQwMjc5MTZDOTciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MUQ5NjM5RjkxQUVEMTFFNEJBQTdGNTQwMjc5MTZDOTciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxRDk2MzlGNjFBRUQxMUU0QkFBN0Y1NDAyNzkxNkM5NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxRDk2MzlGNzFBRUQxMUU0QkFBN0Y1NDAyNzkxNkM5NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAEAAAEALAAAAAABAAMAAAICRFIAOw==) repeat-y center top;
-  	font-family: 'copy', Helvetica, Arial, Verdana, sans-serif;
-  	line-height: 1.5em;
+  	font-family: Raleway, Helvetica, Arial, Verdana, sans-serif;
+  	line-height: 1.6em;
   	overflow: hidden;
   	color: #000;
   	font-size: 16px;
@@ -615,7 +615,7 @@
   	-moz-box-shadow: 0px 0px 0px rgba(0,0,0,.3);
   	box-shadow: 0px 0px 0px rgba(0,0,0,.3);
   	clear: both;
-  	margin: 40px 0px;
+  	margin: 30px 0px;
   }
 
   .ck_form, .ck_form * {
@@ -633,11 +633,10 @@
   .ck_form_content, .ck_form_fields {
   	width: 50%;
   	float: left;
-    padding: 40px 50px;
+    padding: 40px 25px;
   }
 
   .ck_form_fields {
-    margin-top: 40px;
   }
 
   .ck_form.ck_horizontal {
@@ -645,7 +644,6 @@
 
   .ck_form_content {
   	border-bottom: none;
-    height: 300px;
   }
 
   .ck_form.ck_vertical {
@@ -664,7 +662,7 @@
   }
 
   .ck_description {
-    margin: 25px 37px 0;
+    margin: 10px 37px 0;
   }
 
   /* Trigger the vertical layout with media queries as well */
@@ -691,7 +689,7 @@
 
   .ck_form_content h3 {
   	margin: 0px 0px 15px;
-  	font-size: 24px;
+  	font-size: 25px;
   	padding: 0px;
     text-align: center;
   }
@@ -701,16 +699,16 @@
   	font-size: 14px;
     text-align: justify;
     line-height: 1.4em;
+    padding-top: 30px;
   }
 
   .ck_image {
   	float: left;
-    margin-right: 35px;
-    margin-top: 5px;
+    margin-right: 15px;
   }
 
   .ck_image img {
-    height: 180px;
+    width: 200px;
   }
 
   /* Form fields */
@@ -809,7 +807,7 @@
     .ck_form.ck_minimal {
     /* divider image */
   	background: #fff;
-  	font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+    font-family: Raleway;
   	line-height: 1.5em;
     overflow: hidden;
   	color: #000;

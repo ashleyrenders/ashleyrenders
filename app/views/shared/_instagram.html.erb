@@ -1,12 +1,13 @@
 <div class="instagram">
-  <a href="https://www.instagram.com/ashleyrenders/"><span class="title">Follow me on Instagram</span></a>
+  <a href="https://www.instagram.com/ashleyrenders/" target="_blank"><span class="title">Follow me on Instagram</span></a>
   <div id="instafeed">
     <script type="text/javascript">
       var feed = new Instafeed({
           get: 'user',
           userId: '54552992',
           limit: '6',
-          accessToken: "<%= ENV['INSTAGRAM_ACCESS_TOKEN'] %>"
+          accessToken: "<%= ENV['INSTAGRAM_ACCESS_TOKEN'] %>",
+          template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /></a>'
       });
       feed.run();
     </script>
