@@ -159,23 +159,8 @@ p {
   color: #aaa;
 }
 
-.newsletter-signup {
-  clear: both;
-  margin: 24px auto;
-  padding: 25px 100px 35px;
-  border: 1px solid #777;
-  border-left: none;
-  border-right: none;
-  color: #333;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 15px;
-  line-height: 21px;
-  text-align: center;
-}
-
-.newsletter-signup h3 {
-  padding-bottom: 15px;
-  margin: -3px 70px 0;
+.body {
+  margin: 20px 0;
 }
 
 label {
@@ -355,7 +340,7 @@ label {
 
 .footer {
   clear: both;
-  margin: 60px auto;
+  margin: 0 auto;
   text-align: center;
   position: relative;
   background: #fff;

@@ -33,7 +33,7 @@ class ContactsController < ApplicationController
         format.html { redirect_to root_path, notice: 'Thanks for signing up!' }
         format.json { render :show, status: :created, location: @contact }
       else
-        format.html { render :new }
+        format.html { render :index }
         format.json { render json: @contact.errors, status: :unprocessable_entity }
       end
     end
