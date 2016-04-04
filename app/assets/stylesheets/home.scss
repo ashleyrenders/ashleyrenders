@@ -54,7 +54,7 @@
   top: 50px;
 }
 
-@media screen and (max-width: 480px){
+@media only screen and (max-width: 480px){
 
   .slide {
     height: auto;
