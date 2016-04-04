@@ -53,8 +53,8 @@
 }
 
 @media only screen
-and (min-device-width : 414px)
-and (max-device-width : 736px) {
+and (min-width : 414px)
+and (max-width : 736px) {
   .new_contact {
     padding: 25px 0;
 
