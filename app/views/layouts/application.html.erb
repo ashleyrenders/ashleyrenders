@@ -12,7 +12,7 @@
   <div class="whitewrapper">
     <div class="container">
       <div class="header">
-        <!-- <a href="<%= root_path %>"><%= image_tag('logo.png', class:'logo') %></a> -->
+        <a href="<%= root_path %>"><%= image_tag('logotest.jpg', class:'logo') %></a>
         <% if notice %>
           <p id="notice"><%= notice %></p>
           <% end  %>
@@ -29,13 +29,13 @@
               <div class="slide">
                 <%= image_tag 'Headshot1.jpg' %>
                 <p class="slide-caption caption-one">
-                   You learn more from successes than failures. |<a href="<%= work_with_me_index_path %>">Let's get you published</a>
+                   You learn more from success than failure.<br><a href="<%= work_with_me_index_path %>">Let's get you published.</a>
                 </p>
               </div>
               <div class="slide">
                 <%= image_tag 'slide3.jpg' %>
                 <p class="slide-caption caption-three">
-                   Journalism is something you learn by doing. |<a href="<%= work_with_me_index_path %>">Start now</a>
+                   Journalism is something you learn by doing.<br><a href="<%= work_with_me_index_path %>">Start now.</a>
                 </p>
               </div>
             </div>
@@ -47,17 +47,15 @@
       </div>
     </div>
     <div class="footer">
-      <div class="first-row">
-        <div class="logo">
-          <a href="<%= home_index_path %>"><%= image_tag("logo.png") %></a>
-        </div>
-        <%= render 'shared/ckfooter' %>
-        <div class="social-media">
-          <a href="https://twitter.com/iamrenders"><img src="<%= asset_path "twitter.png" %>" /></a>
-          <a href="https://www.instagram.com/strong.feelings/"><img src="<%= asset_path "instagram.png" %>" /></a>
-          <a href="https://ca.linkedin.com/in/ashley-renders-09102722"><img src="<%= asset_path "linkedin.png" %>" /></a>
-          <a href="mailto:ashley@yeahisaidit.ca"><img src="<%= asset_path "mail.png" %>" /></a>
-        </div>
+      <%= render 'shared/instagram' %>
+      <div class="logo">
+        <a href="<%= home_index_path %>"><%= image_tag("Name.png") %></a>
+      </div>
+      <div class="social-media">
+        <a href="https://twitter.com/iamrenders"><img src="<%= asset_path "twitter.png" %>" /></a>
+        <a href="https://www.instagram.com/strong.feelings/"><img src="<%= asset_path "instagram.png" %>" /></a>
+        <a href="https://ca.linkedin.com/in/ashley-renders-09102722"><img src="<%= asset_path "linkedin.png" %>" /></a>
+        <a href="mailto:ashley@yeahisaidit.ca"><img src="<%= asset_path "mail.png" %>" /></a>
       </div>
       <div class="copyright">
         <span>&copy;2016 Ashley Renders</span><span>Web designed by <a href="mailto:admin@yeahisaidit.ca">Dorian Thornton</a></span>

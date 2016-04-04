@@ -2,42 +2,21 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.services {
-  text-align: center;
-  margin-top: 50px;
-  color: #333;
-}
-
-.serv-title {
-  font-size: 21px;
-  padding-bottom: 20px;
-}
-
-.service {
-  display: inline-block;
-  padding: 0 20px;
-  margin: 20px 0 60px;
-  width: 280px;
-}
-
-.service:nth-child(3) {
-  border-right: 1px solid #eee;
-  border-left: 1px solid #eee;
-}
-
-.service img, .service iframe {
-  display: block;
-  margin: 0 auto;
-  width: 280px;
-  height: 187px;
-  margin-bottom: 30px;
-}
-
-.rate {
-  font-weight: 800;
-  color: #111;
-}
-
 .work-with-me p {
-  line-height: 20px;
+  margin: 20px 75px;
+  line-height: 22px;
+}
+
+.work-with-me h2 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  margin: 20px 75px;
+}
+
+.work-with-me h3 {
+  margin: 35px 75px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
 }

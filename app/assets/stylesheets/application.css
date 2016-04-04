@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 50px;
 }
 
 h3 {
@@ -58,7 +58,7 @@ p {
 }
 
 .strong {
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 1px;
   font-weight: 800;
 }
@@ -110,8 +110,8 @@ p {
 }
 
 .logo {
-  height: 250px;
-  object-fit: cover;
+  margin-top: 20px;
+  width: 800px;
 }
 
 .menu {
@@ -246,17 +246,25 @@ label {
 }
 
 .instagram {
+  font-family: Raleway;
   margin: 20px auto;
   text-align: center;
+}
 
+.instagram .title {
+  font-size: 30px;
 }
 
 #instafeed {
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 #instafeed a {
   margin: 0 5px;
+}
+
+#instafeed img {
+  width: 155px;
 }
 
 .opt-in {
@@ -290,7 +298,12 @@ label {
 .copy {
   clear: both;
   height: auto;
-  padding: 20px 20px;
+  padding: 20px 75px;
+}
+
+.link-in-body {
+  color: #2aa869;
+  font-weight: bold;
 }
 
 .copy p {
@@ -342,7 +355,7 @@ label {
 
 .footer {
   clear: both;
-  margin: 30px auto;
+  margin: 60px auto;
   text-align: center;
   position: relative;
   background: #fff;
@@ -358,16 +371,15 @@ label {
 }
 
 .footer .social-media, .footer .newsletter-footer, .footer .logo {
-  margin: 20px;
-  display: inline-block;
+  display: block;
   height: 100px;
   width: 200px;
-  float: left;
+  margin: 0 auto;
 }
 
 .footer .logo {
-  padding: 10px 20px;
-  height: 120px;
+  height: 50px;
+  width: 300px;
 }
 
 .footer .logo img {
@@ -427,8 +439,8 @@ label {
 }
 
 .footer .social-media {
-  padding-top: 50px;
-  height:50px;
+  height: 50px;
+  margin-top: 13px;
 }
 
 .footer .social-media img:hover, .footer a:hover p {
@@ -445,7 +457,7 @@ label {
 .footer .copyright {
   clear: both;
   font-size: 10px;
-  margin: 0 auto 10px 40px;
+  margin: 0 auto 10px;
 }
 
 .footer .copyright span {
@@ -456,7 +468,7 @@ label {
 @media screen and (max-width: 480px){
 
   .menu .home span {
-    display = none;
+    display: none;
   }
 
   .menu .home img {
@@ -470,7 +482,7 @@ label {
 
   .slide a, .slide-caption {
     width: 120px;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 16px;
   }
 
