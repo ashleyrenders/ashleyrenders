@@ -1,13 +1,19 @@
 <%= content_tag "div", class:'banner-info', data: {image: "#{asset_path 'contact.jpg'}"} do %>
 <% end %>
-  <div class="work-with-me">
-    <p><br><br>I'm so excited that you want to start being a journalist. Not learning about being a journalist, not thinking about being a journalist - BEING a journalist.</p>
-    <p>You have everything it takes to get published. You just need to show up, do the work, and learn some best practices  .</p>
+<div class="work-with-me">
+  <div class="copy">
+    <p><span class='strong'>I'm so excited that you want to start being a journalist.</span> Not learning about being a journalist, not thinking about being a journalist - BEING a journalist.</p>
+    <p>You have everything it takes to get published. You just need to show up, do the work, and learn some best practices.</p>
     <h2><br>Here's how we can work together.<h2>
     <h3>1. Download my free pitching guide.</h3>
     <p>If you've been pitching your stories for a while, but have't had any luck, then I suggest you start by downloading my free pitching guide. It will help you eliminate all that trial and error work you've been doing so you can focus on writing like the pro that you are.</p>
-    <span class="ck-optin"><%= render 'shared/ckworkwithmeoptin' %></span>
-    <p>You can do that right here. --> </p>
+  </div>
+  <div class="ck-optin">
+    <span class="ck-opt-in-call arrow">You can do that right here --></span>
+    <span class="ck-opt-in-call no-arrow">You can do that right here</span>
+    <%= render 'shared/ckworkwithmeoptin' %>
+  </div>
+  <div class="copy">
     <h3>2. Send me your pitch</h3>
     <p>If you're still not getting the results you're looking for, send me your pitch and I'll give it a solid edit. You're probably making simple mistakes that I can point out so you never make them again. A one-time edit can solve so many problems.</p>
     <p>I charge a cool $39 per pitch.</p>
@@ -23,8 +29,7 @@
     <p>- I'll edit your work thoroughly, point out spelling and grammar mistakes, ask you to back up facts, and coach you on your writing style.</p>
     <p>- I'll be at your disposal to answer questions about how to talk to editors, negotiate payment and find sources.</p>
     <p>Think of me an experienced friend who really really wants you succeed.</p>
-    <p><br><br>
-    <h2>"Whatever you can do, or dream you can do, begin it. Boldness has genius, power, and magic in it. Begin it now.” - William Hutchison Murray</h2><br><br>
+    <h2 class='quote'>"Whatever you can do, or dream you can do, begin it. Boldness has genius, power, and magic in it. Begin it now.” - William Hutchison Murray</h2>
     <p><span class="strong">This is a commitment you're making to yourself</span></p>
     <p>None of this will work unless you do. By signing on to work with me, you're committing to getting this work done because it's important to you.</p>
     <p>We'll come up with a schedule and you'll submit your work to me on time, just like you would with an editor. You'll learn what it feels like to say, "Sorry, I can't. I'm on a deadline."</p>
@@ -41,4 +46,5 @@
     <p>If you're interested in working with me, I would love to hear from you! Enter you email below and I'll be in touch within 24 hours.<br><br>
     <span class="italic">**If one-on-one work feels right for you, please don't hesitate to get in touch because I can only work with 5 clients at a time. I really want to see your name on my calendar, so make sure you add your name to the list.</span>
     <div class="ck-contact"><%= render 'shared/ckworkwithmecontact' %></div>
+  </div>
 </div>

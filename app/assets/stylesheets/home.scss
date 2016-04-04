@@ -53,3 +53,35 @@
   left: 40px;
   top: 50px;
 }
+
+@media screen and (max-width: 480px){
+
+  .slide {
+    height: auto;
+  }
+
+  .slide img {
+    height: auto;
+  }
+
+  .slide-caption {
+    font-size: 25px;
+    line-height: normal;
+  }
+
+  .slide-caption a {
+    font-size: 11px;
+  }
+
+  .slide-caption.caption-one {
+    top: 40px;
+    left: 60%;
+    width: 130px;
+  }
+
+  .slide-caption.caption-three {
+    top: 20px;
+    left: 20px;
+    width: 30%;
+  }
+}

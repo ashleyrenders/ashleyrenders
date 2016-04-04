@@ -88,3 +88,22 @@
   font-family: 'Josefin Sans', sans-serif;
   font-size: 14px;
 }
+
+@media screen and (max-width: 480px){
+
+  .posts {
+    margin: 20px auto 0;
+    text-align: center;
+  }
+
+  .post {
+    display: inline-block;
+    float: none;
+    width: 80%;
+  }
+
+  .post img {
+    width: 100%;
+    height: 200px;
+  }
+}

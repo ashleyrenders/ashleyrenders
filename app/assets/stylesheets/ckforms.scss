@@ -26,6 +26,11 @@
 
   .ck-opt-in-call {
     margin-right: 30px;
+    display: inline;
+  }
+
+  .ck-opt-in-call.no-arrow {
+    display: none;
   }
 
   .ck_form, .ck_form * {
@@ -129,6 +134,25 @@
   .page .ck_form.ck_naked {
   	margin: 50px auto;
   	max-width: 700px;
+  }
+
+  @media all and (max-width: 499px) {
+
+    .ck_form.ck_naked {
+      width: auto;
+      height: auto;
+      margin-top: 10px;
+    }
+
+    .ck-opt-in-call.no-arrow {
+      display:inline;
+      margin: 0;
+    }
+    .ck-opt-in-call.arrow {
+      display: none;
+    }
+
+
   }
 
 
@@ -460,26 +484,6 @@
     margin: 0 15px;
   }
 
-  /* Trigger the vertical layout with media queries as well */
-
-  @media all and (max-width: 499px) {
-
-  	.ck_form {
-  		background: #fff;
-  	}
-
-  	.ck_form_content, .ck_form_fields {
-  		padding: 10%;
-  		width: 100%;
-  		float: none;
-  	}
-
-  	.ck_form_content {
-  		border-bottom: 1px dotted #aaa;
-  	}
-
-  }
-
   /* Content */
 
   .ck_form_content h3 {
@@ -567,7 +571,7 @@
       background: #20ab73;
       -moz-border-radius: 4px;
       -webkit-border-radius: 4px;
-      border-radius: 4px; /* border radius */
+      border-radius: 4px;
       cursor: pointer;
       border: none;
       text-shadow: none;
@@ -596,6 +600,39 @@
     display: none;
   	padding: 5%;
   	background: #fff;
+  }
+  /* Trigger the vertical layout with media queries as well */
+
+  @media all and (max-width: 499px) {
+
+  	.ck_form {
+  		background: #fff;
+  	}
+
+  	.ck_form_content, .ck_form_fields {
+  		padding: 10%;
+  		width: 100%;
+  		float: none;
+  	}
+
+  	.ck_form_content {
+  		border-bottom: 1px dotted #aaa;
+      p {
+        padding: 0;
+        font-size: 15px;
+      }
+  	}
+
+    .ck_description {
+      text-align: center;
+    }
+
+    .ck_image {
+      display: block;
+      float: none;
+      text-align: center;
+    }
+
   }
 }
 .about {
@@ -878,7 +915,6 @@
   	border-radius: 3px; /* border radius */
   	background-color: #fff; /* layer fill content */
   	margin-bottom: 5px;
-  	height: auto;
   	float: left;
   	margin: 0px;
   	margin-right: 2%;
@@ -947,5 +983,16 @@
   .page .ck_form.ck_minimal {
   	margin: 50px auto;
   	max-width: 600px;
+  }
+
+  @media screen and (max-width: 480px){
+
+    .ck_form.ck_minimal .ck_form_fields {
+      padding: 30px 25px 20px;
+    }
+
+    .ck_form.ck_minimal input, .ck_form.ck_minimal input {
+      height: auto;
+    }
   }
 }
