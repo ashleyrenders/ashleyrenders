@@ -52,7 +52,8 @@
   margin-top: 20px;
 }
 
-@media screen and (max-width: 480px){
+@media only screen
+and (max-width : 736px) {
   .new_contact {
     padding: 25px 0;
 

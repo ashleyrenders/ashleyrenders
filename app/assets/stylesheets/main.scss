@@ -435,7 +435,8 @@ label {
 }
 
 /* #### Mobile Phones Portrait #### */
-@media screen and (max-width: 480px){
+@media only screen
+  and (max-width : 736px) {
 
   .logo {
     width: 100%;
