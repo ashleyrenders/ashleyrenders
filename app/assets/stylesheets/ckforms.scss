@@ -451,11 +451,7 @@
   .ck_form_content, .ck_form_fields {
   	width: 50%;
   	float: left;
-  	padding: 40px 30px 10px;
-  }
-
-  .ck_form_fields {
-    padding-top: 100px;
+  	padding: 40px 25px;
   }
 
   .ck_form.ck_horizontal {
@@ -481,24 +477,25 @@
   }
 
   .ck_description {
-    margin: 0 15px;
+    margin: 10px 37px 0;
   }
 
   /* Content */
 
   .ck_form_content h3 {
     text-align: center;
-  	margin: 0px 0px 10px;
+  	margin: 0px 0px 15px;
   	font-size: 25px;
   	padding: 0px;
+    line-height: 1em;
   }
 
 
   .ck_form_content p {
-  	font-size: 18px;
-    line-height: 1.5em;
-    letter-spacing: 0.7px;
-    padding: 40px 20px 0 0;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.4em;
+    padding-top: 30px;
   }
 
   .ck_image {
@@ -567,7 +564,7 @@
       color: #fff;
       margin: 10px 0px 0px;
       padding:  10px 0px;
-      font-size: 20px;
+      font-size: 18px;
       background: #20ab73;
       -moz-border-radius: 4px;
       -webkit-border-radius: 4px;
@@ -618,8 +615,8 @@
   	.ck_form_content {
   		border-bottom: 1px dotted #aaa;
       p {
-        padding: 0;
-        font-size: 15px;
+        padding: 30px 0 0;
+        font-size: 14px;
       }
   	}
 
