@@ -20,10 +20,68 @@
   margin-top: 20px;
 }
 
+.contact_me {
+  border: 1px solid #aaa;
+  margin: 20px auto;
+  max-width: 770px;
+  padding: 40px 100px;
+  display: table;
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .new_contact {
+    display: table-row;
+    border: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+
+    .fields {
+      text-align: center;
+      margin: 25px auto 0;
+    }
+
+    .field, .actions {
+      clear: both;
+      margin: 5px auto;
+
+      input {
+        height: 36px;
+        text-align: left;
+        padding-left: 10px;
+        width: 320px;
+        box-sizing: border-box;
+      }
+    }
+    .actions {
+
+      input {
+        height: 40px;
+        border: 1px solid #2aa869;
+        font-size: 18px;
+        font-family: inherit;
+        text-align: center;
+      }
+    }
+  }
+}
+
 @media only screen
   and (max-width : 736px) {
 
   .copy img {
     width: 100%;
   }
+
+  .contact_me {
+    width: 100%;
+    padding: 40px 0;
+    border-left: none;
+    border-right: none;
+  }
+
 }

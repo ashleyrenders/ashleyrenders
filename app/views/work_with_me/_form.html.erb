@@ -1,0 +1,28 @@
+<%= form_for(@contact) do |f| %>
+  <% if @contact.errors.any? %>
+    <div id="error_explanation">
+      <h3>Hang on, I caught <%= pluralize(@contact.errors.count, "error") %>:</h3>
+
+      <ul>
+      <% @contact.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="fields">
+    <div class="field">
+      <%= f.label :name %>
+      <%= f.text_field :name, placeholder: 'Name' %>
+    </div>
+    <div class="field">
+      <%= f.label :email %>
+      <%= f.text_field :email, placeholder: 'Email' %>
+    </div>
+    <div class="actions">
+      <%= f.submit "Contact" %>
+    </div>
+  </div>
+
+<% end %>

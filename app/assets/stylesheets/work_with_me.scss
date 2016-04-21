@@ -2,41 +2,107 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.work-with-me p {
-  margin: 20px 0;
-  line-height: 22px;
-}
+.work-with-me {
 
-.work-with-me h2 {
-  font-size: 35px;
-  letter-spacing: 1px;
-  font-weight: 800;
-  margin: 20px 0;
-  line-height: 30px;
-}
+  p {
+    margin: 20px 0;
+    line-height: 22px;
+  }
 
-.work-with-me .quote {
-  margin: 50px 100px;
-  text-align: justify;
-}
+  h2 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    margin: 20px 0;
+    line-height: 30px;
+  }
 
-.work-with-me h3 {
-  margin: 30px 0;
-  font-size: 30px;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-}
+  .quote {
+    margin: 50px 100px;
+    text-align: justify;
+  }
 
-.work-with-me h4 {
-  margin: 25px 0;
-  font-size: 25px;
-  letter-spacing: 1px;
-  text-transform: capitalize;
+  h3 {
+    margin: 30px 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+  }
+
+  h4 {
+    margin: 25px 0;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+  }
+
+  .contact_me {
+    border: 1px solid #aaa;
+    margin: 20px auto;
+    max-width: 770px;
+    padding: 40px 100px;
+    display: table;
+
+    h2 {
+      font-size: 25px;
+      line-height: 25px;
+      text-align: center;
+      font-weight: normal;
+      margin: 0;
+      letter-spacing: 0.5px;
+    }
+
+    .new_contact {
+      display: table-row;
+      border: none;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      height: 40px;
+
+      .fields {
+        text-align: center;
+        margin: 25px auto 0;
+      }
+
+      .field, .actions {
+        clear: both;
+        margin: 5px auto;
+
+        input {
+          height: 36px;
+          text-align: left;
+          padding-left: 10px;
+          width: 320px;
+        }
+      }
+      .actions {
+
+        input {
+          height: 40px;
+          border: 1px solid #2aa869;
+          font-size: 18px;
+          font-family: inherit;
+          text-align: center;
+        }
+      }
+    }
+  }
 }
 
 @media only screen
   and (max-width : 736px) {
-  .work-with-me .quote {
-    margin: 60px 20px 65px;
+  .work-with-me {
+
+    .quote {
+      margin: 60px 20px 65px;
+    }
+    .contact_me {
+      width: 100%;
+      padding: 40px 0;
+      border-left: none;
+      border-right: none;
+    }
   }
+
 }

@@ -1,0 +1,2308 @@
+/* line 5, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/about.scss */
+.about-intro {
+  margin: 0 20px;
+}
+
+/* line 9, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/about.scss */
+.about-intro .about-text {
+  display: inline-block;
+  float: left;
+  width: 490px;
+  margin: 20px 0 10px;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+/* line 18, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/about.scss */
+.copy img {
+  max-width: 350px;
+  margin-top: 20px;
+}
+
+/* line 23, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/about.scss */
+.contact_me {
+  border: 1px solid #aaa;
+  margin: 20px auto;
+  max-width: 770px;
+  padding: 40px 100px;
+  display: table;
+}
+/* line 30, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/about.scss */
+.contact_me h2 {
+  font-size: 25px;
+  text-align: center;
+}
+/* line 35, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/about.scss */
+.contact_me .new_contact {
+  display: table-row;
+  border: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
+/* line 43, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/about.scss */
+.contact_me .new_contact .fields {
+  text-align: center;
+  margin: 25px auto 0;
+}
+/* line 48, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/about.scss */
+.contact_me .new_contact .field, .contact_me .new_contact .actions {
+  clear: both;
+  margin: 5px auto;
+}
+/* line 52, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/about.scss */
+.contact_me .new_contact .field input, .contact_me .new_contact .actions input {
+  height: 36px;
+  text-align: left;
+  padding-left: 10px;
+  width: 320px;
+  box-sizing: border-box;
+}
+/* line 62, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/about.scss */
+.contact_me .new_contact .actions input {
+  height: 40px;
+  border: 1px solid #2aa869;
+  font-size: 18px;
+  font-family: inherit;
+  text-align: center;
+}
+
+@media only screen and (max-width: 736px) {
+  /* line 76, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/about.scss */
+  .copy img {
+    width: 100%;
+  }
+
+  /* line 80, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/about.scss */
+  .contact_me {
+    width: 100%;
+    padding: 40px 0;
+    border-left: none;
+    border-right: none;
+  }
+}
+@charset "UTF-8";
+/* line 1, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin {
+  text-align: center;
+  margin: 0 75px;
+  /* Form fields */
+  /* max width 500 */
+  /* max width 400 */
+  padding: 0 !important;
+}
+/* line 5, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck_form.ck_naked {
+  display: inline-block;
+  background: transparent;
+  line-height: 1.5em;
+  overflow: hidden;
+  color: #666;
+  font-size: 16px;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  height: 45px;
+  width: 550px;
+  vertical-align: middle;
+  text-align: center;
+  clear: none;
+}
+/* line 23, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck_form.ck_naked p {
+  padding: 0px;
+}
+/* line 27, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck-opt-in-call {
+  margin-right: 30px;
+  display: inline;
+}
+/* line 32, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck-opt-in-call.no-arrow {
+  display: none;
+}
+/* line 36, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck_form, .work-with-me .ck-optin .ck_form * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 42, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck_form.ck_naked .ck_form_fields {
+  width: 100%;
+  float: left;
+}
+/* line 48, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck_errorArea {
+  display: none;
+  /* temporary */
+}
+/* line 52, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin #ck_success_msg {
+  padding: 10px 10px 0px;
+  border: solid 1px #ddd;
+  background: #eee;
+}
+/* line 58, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck_form.ck_naked input[type="text"], .work-with-me .ck-optin .ck_form.ck_naked input[type="email"] {
+  font-size: 18px;
+  padding: 10px 8px;
+  width: 34%;
+  border: 1px solid #d6d6d6;
+  /* stroke */
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  /* border radius */
+  background-color: #fff;
+  /* layer fill content */
+  margin-bottom: 5px;
+  height: auto;
+  float: left;
+  margin: 0px;
+  margin-right: 1%;
+  height: 42px;
+}
+/* line 75, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck_form input[type="text"]:focus, .work-with-me .ck-optin .ck_form input[type="email"]:focus {
+  outline: none;
+  border-color: #aaa;
+}
+/* line 80, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck_form.ck_naked .ck_subscribe_button {
+  width: 100%;
+  color: #fff;
+  margin: 0px;
+  padding: 9px 0px;
+  font-size: 18px;
+  background: #2aa869;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  /* border radius */
+  cursor: pointer;
+  border: none;
+  text-shadow: none;
+  width: 30%;
+  float: left;
+  height: 42px;
+}
+/* line 99, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck_converted_content {
+  display: none;
+  padding: 5%;
+  background: #fff;
+}
+/* line 107, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck_form.ck_naked.width500 .ck_subscribe_button {
+  width: 100%;
+  float: none;
+  margin-top: 5px;
+}
+/* line 113, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck_form.ck_naked.width500 input[type="text"], .work-with-me .ck-optin .ck_form.ck_naked.width500 input[type="email"] {
+  width: 49%;
+}
+/* line 117, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck_form.ck_naked.width500 input[type="email"] {
+  margin-right: 0px;
+  width: 50%;
+}
+/* line 124, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck_form.ck_naked.width400 .ck_subscribe_button, .work-with-me .ck-optin .ck_form.ck_naked.width400 input[type="text"], .work-with-me .ck-optin .ck_form.ck_naked.width400 input[type="email"] {
+  width: 100%;
+  float: none;
+  margin-top: 5px;
+}
+/* line 130, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .ck_slide_up, .work-with-me .ck-optin .ck_modal, .work-with-me .ck-optin .ck_slide_up .ck_naked, .work-with-me .ck-optin .ck_modal .ck_naked {
+  min-width: 400px;
+}
+/* line 134, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-optin .page .ck_form.ck_naked {
+  margin: 50px auto;
+  max-width: 700px;
+}
+@media all and (max-width: 499px) {
+  /* line 141, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+  .work-with-me .ck-optin .ck_form.ck_naked {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+  }
+  /* line 147, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+  .work-with-me .ck-optin .ck-opt-in-call.no-arrow {
+    display: inline;
+    margin: 0;
+  }
+  /* line 151, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+  .work-with-me .ck-optin .ck-opt-in-call.arrow {
+    display: none;
+  }
+}
+
+/* line 161, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact {
+  /* Form fields */
+  /* max width 500 */
+  /* max width 400 */
+  padding: 0 !important;
+}
+/* line 162, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact .ck_form.ck_naked {
+  /* divider image */
+  background: transparent;
+  line-height: 1.5em;
+  overflow: hidden;
+  color: #666;
+  font-size: 16px;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  clear: both;
+  margin: 20px 75px;
+  text-align: center;
+}
+/* line 178, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact .ck_form.ck_naked p {
+  padding: 0px;
+}
+/* line 182, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact .ck_form, .work-with-me .ck-contact .ck_form * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 188, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact .ck_form.ck_naked .ck_form_fields {
+  width: 100%;
+  float: left;
+  padding: 5%;
+}
+/* line 195, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact .ck_errorArea {
+  display: none;
+  /* temporary */
+}
+/* line 199, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact #ck_success_msg {
+  padding: 10px 10px 0px;
+  border: solid 1px #ddd;
+  background: #eee;
+}
+/* line 205, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact .ck_form.ck_naked input[type="text"], .work-with-me .ck-contact .ck_form.ck_naked input[type="email"] {
+  font-size: 18px;
+  padding: 10px 8px;
+  width: 34%;
+  border: 1px solid #d6d6d6;
+  /* stroke */
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  /* border radius */
+  background-color: #fff;
+  /* layer fill content */
+  margin-bottom: 5px;
+  height: auto;
+  float: left;
+  margin: 0px;
+  margin-right: 1%;
+  height: 42px;
+}
+/* line 222, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact .ck_form input[type="text"]:focus, .work-with-me .ck-contact .ck_form input[type="email"]:focus {
+  outline: none;
+  border-color: #aaa;
+}
+/* line 227, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact .ck_form.ck_naked .ck_subscribe_button {
+  width: 100%;
+  color: #fff;
+  margin: 0px;
+  padding: 9px 0px;
+  font-size: 18px;
+  background: #2aa869;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  /* border radius */
+  cursor: pointer;
+  border: none;
+  text-shadow: none;
+  width: 30%;
+  float: left;
+  height: 42px;
+}
+/* line 246, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact .ck_converted_content {
+  display: none;
+  padding: 5%;
+  background: #fff;
+}
+/* line 254, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact .ck_form.ck_naked.width500 .ck_subscribe_button {
+  width: 100%;
+  float: none;
+  margin-top: 5px;
+}
+/* line 260, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact .ck_form.ck_naked.width500 input[type="text"], .work-with-me .ck-contact .ck_form.ck_naked.width500 input[type="email"] {
+  width: 49%;
+}
+/* line 264, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact .ck_form.ck_naked.width500 input[type="email"] {
+  margin-right: 0px;
+  width: 50%;
+}
+/* line 271, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact .ck_form.ck_naked.width400 .ck_subscribe_button, .work-with-me .ck-contact .ck_form.ck_naked.width400 input[type="text"], .work-with-me .ck-contact .ck_form.ck_naked.width400 input[type="email"] {
+  width: 100%;
+  float: none;
+  margin-top: 5px;
+}
+/* line 277, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact .ck_slide_up, .work-with-me .ck-contact .ck_modal, .work-with-me .ck-contact .ck_slide_up .ck_naked, .work-with-me .ck-contact .ck_modal .ck_naked {
+  min-width: 400px;
+}
+/* line 281, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.work-with-me .ck-contact .page .ck_form.ck_naked {
+  margin: 50px auto;
+  max-width: 700px;
+}
+
+/* line 289, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer {
+  /* Form fields */
+  /* max width 500 */
+  /* max width 400 */
+}
+/* line 290, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .ck-title {
+  font-family: Raleway;
+}
+/* line 294, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .ck_form.ck_naked {
+  /* divider image */
+  width: 300px;
+  background: transparent;
+  line-height: 1.5em;
+  overflow: hidden;
+  color: #666;
+  font-size: 14px;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  clear: both;
+  margin: -20px 40px 0;
+  text-align: center;
+}
+/* line 311, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .ck_form.ck_naked p {
+  padding: 0px;
+}
+/* line 315, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .ck_form, .footer .ck_form * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 321, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .ck_form.ck_naked .ck_form_fields {
+  width: 100%;
+  float: left;
+  padding: 5%;
+}
+/* line 328, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .ck_errorArea {
+  display: none;
+  /* temporary */
+}
+/* line 332, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer #ck_success_msg {
+  padding: 10px 10px 0px;
+  border: solid 1px #ddd;
+  background: #eee;
+}
+/* line 338, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .ck_form.ck_naked input[type="text"], .footer .ck_form.ck_naked input[type="email"] {
+  font-size: 18px;
+  padding: 10px 8px;
+  width: 34%;
+  border: 1px solid #d6d6d6;
+  /* stroke */
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  /* border radius */
+  background-color: #fff;
+  /* layer fill content */
+  margin-bottom: 5px;
+  height: auto;
+  float: left;
+  margin: 0px;
+  margin-right: 1%;
+  height: 42px;
+}
+/* line 355, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .ck_form input[type="text"]:focus, .footer .ck_form input[type="email"]:focus {
+  outline: none;
+  border-color: #aaa;
+}
+/* line 360, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .ck_form.ck_naked .ck_subscribe_button {
+  width: 100%;
+  color: #fff;
+  margin: 0px;
+  padding: 9px 0px;
+  font-size: 18px;
+  background: #717573;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  /* border radius */
+  cursor: pointer;
+  border: none;
+  text-shadow: none;
+  width: 30%;
+  float: left;
+  height: 42px;
+}
+/* line 379, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .ck_converted_content {
+  display: none;
+  padding: 5%;
+  background: #fff;
+}
+/* line 387, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .ck_form.ck_naked.width500 .ck_subscribe_button {
+  width: 100%;
+  float: none;
+  margin-top: 5px;
+}
+/* line 393, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .ck_form.ck_naked.width500 input[type="text"], .footer .ck_form.ck_naked.width500 input[type="email"] {
+  width: 49%;
+}
+/* line 397, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .ck_form.ck_naked.width500 input[type="email"] {
+  margin-right: 0px;
+  width: 50%;
+}
+/* line 404, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .ck_form.ck_naked.width400 .ck_subscribe_button, .footer .ck_form.ck_naked.width400 input[type="text"], .footer .ck_form.ck_naked.width400 input[type="email"] {
+  width: 100%;
+  float: none;
+  margin-top: 5px;
+}
+/* line 410, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .ck_slide_up, .footer .ck_modal, .footer .ck_slide_up .ck_naked, .footer .ck_modal .ck_naked {
+  min-width: 400px;
+}
+/* line 414, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.footer .page .ck_form.ck_naked {
+  margin: 50px auto;
+  max-width: 700px;
+}
+
+/* line 419, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home {
+  /* Element Queries — uses JS */
+  /* Content */
+  /* Form fields */
+  /* Trigger the vertical layout with media queries as well */
+}
+/* line 420, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_form {
+  /* divider image */
+  background: #fff url(data:image/gif;base64,R0lGODlhAQADAIABAMzMzP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS41LWMwMTQgNzkuMTUxNDgxLCAyMDEzLzAzLzEzLTEyOjA5OjE1ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MUQ5NjM5RjgxQUVEMTFFNEJBQTdGNTQwMjc5MTZDOTciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MUQ5NjM5RjkxQUVEMTFFNEJBQTdGNTQwMjc5MTZDOTciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxRDk2MzlGNjFBRUQxMUU0QkFBN0Y1NDAyNzkxNkM5NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxRDk2MzlGNzFBRUQxMUU0QkFBN0Y1NDAyNzkxNkM5NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAEAAAEALAAAAAABAAMAAAICRFIAOw==) repeat-y center top;
+  font-family: Raleway;
+  line-height: 1.5em;
+  overflow: hidden;
+  color: #000;
+  font-size: 18px;
+  border-top: solid 2px #3071b0;
+  border-top-color: #2aa869;
+  border-bottom: solid 2px #2aa869;
+  border-bottom-color: #2aa869;
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+  clear: both;
+  margin: 45px 0px;
+}
+/* line 439, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_form, .home .ck_form * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 445, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home #ck_subscribe_form {
+  clear: both;
+}
+/* line 451, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_form_content, .home .ck_form_fields {
+  width: 50%;
+  float: left;
+  padding: 40px 25px;
+}
+/* line 460, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_form_content {
+  border-bottom: none;
+}
+/* line 464, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_form.ck_vertical {
+  background: #fff;
+}
+/* line 468, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_vertical .ck_form_content, .home .ck_vertical .ck_form_fields {
+  padding: 10%;
+  width: 100%;
+  float: none;
+}
+/* line 474, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_vertical .ck_form_content {
+  border-bottom: 1px dotted #aaa;
+  overflow: hidden;
+}
+/* line 479, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_description {
+  margin: 10px 37px 0;
+}
+/* line 485, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_form_content h3 {
+  text-align: center;
+  margin: 0px 0px 15px;
+  font-size: 25px;
+  padding: 0px;
+  line-height: 1em;
+}
+/* line 494, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_form_content p {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 1.4em;
+  padding-top: 30px;
+}
+/* line 501, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_image {
+  float: left;
+  margin-right: 15px;
+}
+/* line 506, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_image img {
+  width: 200px;
+}
+/* line 512, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_errorArea {
+  display: none;
+}
+/* line 516, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home #ck_success_msg {
+  padding: 10px 10px 0px;
+  border: solid 1px #ddd;
+  background: #eee;
+}
+/* line 522, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_label {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 527, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_form input[type="text"], .home .ck_form input[type="email"] {
+  font-size: 14px;
+  padding: 10px 8px;
+  width: 100%;
+  border: 1px solid #d6d6d6;
+  /* stroke */
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  /* border radius */
+  background-color: #f8f7f7;
+  /* layer fill content */
+  margin-bottom: 5px;
+  height: auto;
+}
+/* line 540, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_form input[type="text"]:focus, .home .ck_form input[type="email"]:focus {
+  outline: none;
+  border-color: #aaa;
+}
+/* line 545, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_checkbox {
+  padding: 10px 0px 10px 20px;
+  display: block;
+  clear: both;
+}
+/* line 551, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_checkbox input.optIn {
+  margin-left: -20px;
+  margin-top: 0;
+}
+/* line 555, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_form .ck_opt_in_prompt {
+  margin-left: 4px;
+}
+/* line 558, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_form .ck_opt_in_prompt p {
+  display: inline;
+}
+/* line 562, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_form .ck_subscribe_button {
+  width: 100%;
+  color: #fff;
+  margin: 10px 0px 0px;
+  padding: 10px 0px;
+  font-size: 18px;
+  background: #20ab73;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  text-shadow: none;
+}
+/* line 578, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_form .ck_guarantee {
+  color: #626262;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px 0px;
+  display: block;
+}
+/* line 586, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_form .ck_powered_by {
+  display: block;
+  color: #aaa;
+}
+/* line 591, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_form .ck_powered_by:hover {
+  display: block;
+  color: #444;
+}
+/* line 596, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.home .ck_converted_content {
+  display: none;
+  padding: 5%;
+  background: #fff;
+}
+@media all and (max-width: 499px) {
+  /* line 605, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+  .home .ck_form {
+    background: #fff;
+  }
+  /* line 609, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+  .home .ck_form_content, .home .ck_form_fields {
+    padding: 10%;
+    width: 100%;
+    float: none;
+  }
+  /* line 615, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+  .home .ck_form_content {
+    border-bottom: 1px dotted #aaa;
+  }
+  /* line 617, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+  .home .ck_form_content p {
+    padding: 30px 0 0;
+    font-size: 14px;
+  }
+  /* line 623, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+  .home .ck_description {
+    text-align: center;
+  }
+  /* line 627, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+  .home .ck_image {
+    display: block;
+    float: none;
+    text-align: center;
+  }
+}
+
+/* line 635, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about {
+  /* Element Queries — uses JS */
+  /* Trigger the vertical layout with media queries as well */
+  /* Content */
+  /* Form fields */
+}
+/* line 636, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_form {
+  /* divider image */
+  background: #fff url(data:image/gif;base64,R0lGODlhAQADAIABAMzMzP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS41LWMwMTQgNzkuMTUxNDgxLCAyMDEzLzAzLzEzLTEyOjA5OjE1ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MUQ5NjM5RjgxQUVEMTFFNEJBQTdGNTQwMjc5MTZDOTciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MUQ5NjM5RjkxQUVEMTFFNEJBQTdGNTQwMjc5MTZDOTciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxRDk2MzlGNjFBRUQxMUU0QkFBN0Y1NDAyNzkxNkM5NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxRDk2MzlGNzFBRUQxMUU0QkFBN0Y1NDAyNzkxNkM5NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAEAAAEALAAAAAABAAMAAAICRFIAOw==) repeat-y center top;
+  font-family: Raleway, Helvetica, Arial, Verdana, sans-serif;
+  line-height: 1.6em;
+  overflow: hidden;
+  color: #000;
+  font-size: 16px;
+  border-top: solid 2px #2aa869;
+  border-top-color: #2aa869;
+  border-bottom: solid 2px #2aa869;
+  border-bottom-color: #2aa869;
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+  clear: both;
+  margin: 30px 0px;
+}
+/* line 655, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_form, .about .ck_form * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 661, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about #ck_subscribe_form {
+  clear: both;
+}
+/* line 667, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_form_content, .about .ck_form_fields {
+  width: 50%;
+  float: left;
+  padding: 40px 25px;
+}
+/* line 679, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_form_content {
+  border-bottom: none;
+}
+/* line 683, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_form.ck_vertical {
+  background: #fff;
+}
+/* line 687, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_vertical .ck_form_content, .about .ck_vertical .ck_form_fields {
+  padding: 10%;
+  width: 100%;
+  float: none;
+}
+/* line 693, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_vertical .ck_form_content {
+  border-bottom: 1px dotted #aaa;
+  overflow: hidden;
+}
+/* line 698, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_description {
+  margin: 10px 37px 0;
+}
+@media all and (max-width: 499px) {
+  /* line 706, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+  .about .ck_form {
+    background: #fff;
+  }
+  /* line 710, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+  .about .ck_form_content, .about .ck_form_fields {
+    padding: 10%;
+    width: 100%;
+    float: none;
+  }
+  /* line 716, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+  .about .ck_form_content {
+    border-bottom: 1px dotted #aaa;
+  }
+}
+/* line 724, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_form_content h3 {
+  margin: 0px 0px 15px;
+  font-size: 25px;
+  padding: 0px;
+  text-align: center;
+}
+/* line 732, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_form_content p {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 1.4em;
+  padding-top: 30px;
+}
+/* line 739, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_image {
+  float: left;
+  margin-right: 15px;
+}
+/* line 744, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_image img {
+  width: 200px;
+}
+/* line 750, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_errorArea {
+  display: none;
+}
+/* line 754, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about #ck_success_msg {
+  padding: 10px 10px 0px;
+  border: solid 1px #ddd;
+  background: #eee;
+}
+/* line 760, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_label {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 765, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_form input[type="text"], .about .ck_form input[type="email"] {
+  font-size: 14px;
+  padding: 10px 8px;
+  width: 100%;
+  border: 1px solid #d6d6d6;
+  /* stroke */
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  /* border radius */
+  background-color: #f8f7f7;
+  /* layer fill content */
+  margin-bottom: 5px;
+  height: auto;
+}
+/* line 778, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_form input[type="text"]:focus, .about .ck_form input[type="email"]:focus {
+  outline: none;
+  border-color: #aaa;
+}
+/* line 783, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_checkbox {
+  padding: 10px 0px 10px 20px;
+  display: block;
+  clear: both;
+}
+/* line 789, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_checkbox input.optIn {
+  margin-left: -20px;
+  margin-top: 0;
+}
+/* line 793, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_form .ck_opt_in_prompt {
+  margin-left: 4px;
+}
+/* line 796, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_form .ck_opt_in_prompt p {
+  display: inline;
+}
+/* line 800, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_form .ck_subscribe_button {
+  width: 100%;
+  color: #fff;
+  margin: 10px 0px 0px;
+  padding: 10px 0px;
+  font-size: 18px;
+  background: #2aa869;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  /* border radius */
+  cursor: pointer;
+  border: none;
+  text-shadow: none;
+}
+/* line 816, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_form .ck_guarantee {
+  color: #626262;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px 0px;
+  display: block;
+}
+/* line 824, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_form .ck_powered_by {
+  display: block;
+  color: #aaa;
+}
+/* line 829, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_form .ck_powered_by:hover {
+  display: block;
+  color: #444;
+}
+/* line 834, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.about .ck_converted_content {
+  display: none;
+  padding: 5%;
+  background: #fff;
+}
+
+/* line 840, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom {
+  /* Form fields */
+}
+/* line 841, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_form.ck_minimal {
+  /* divider image */
+  background: #fff;
+  font-family: Raleway;
+  line-height: 1.5em;
+  overflow: hidden;
+  color: #000;
+  font-size: 16px;
+  border: solid 1px #d1d1d1;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  clear: both;
+  margin: 20px 0px;
+  text-align: center;
+}
+/* line 858, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_description p {
+  margin: 10px 0 20px;
+}
+/* line 862, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_form.ck_minimal h3.ck_form_title {
+  text-align: center;
+  margin: 0px 0px 10px;
+  font-size: 28px;
+}
+/* line 868, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_form.ck_minimal h4 {
+  text-align: center;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+/* line 878, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_form.ck_minimal p {
+  padding: 0px;
+}
+/* line 882, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_form, .aboutbottom .ck_form * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 888, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_form.ck_minimal .ck_form_fields {
+  width: 100%;
+  float: left;
+  padding: 5%;
+}
+/* line 895, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_errorArea {
+  display: none;
+  /* temporary */
+}
+/* line 899, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom #ck_success_msg {
+  padding: 10px 10px 0px;
+  border: solid 1px #ddd;
+  background: #eee;
+}
+/* line 905, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_form.ck_minimal input[type="text"], .aboutbottom .ck_form.ck_minimal input[type="email"] {
+  font-size: 18px;
+  padding: 10px 8px;
+  width: 68%;
+  border: 1px solid #d6d6d6;
+  /* stroke */
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  /* border radius */
+  background-color: #fff;
+  /* layer fill content */
+  margin-bottom: 5px;
+  float: left;
+  margin: 0px;
+  margin-right: 2%;
+  height: 42px;
+}
+/* line 921, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_form input[type="text"]:focus, .aboutbottom .ck_form input[type="email"]:focus {
+  outline: none;
+  border-color: #aaa;
+}
+/* line 926, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_form.ck_minimal .ck_subscribe_button {
+  width: 100%;
+  color: #fff;
+  margin: 0px;
+  padding: 11px 0px;
+  font-size: 18px;
+  background: #2aa869;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  /* border radius */
+  cursor: pointer;
+  border: none;
+  text-shadow: none;
+  width: 30%;
+  float: left;
+  height: 42px;
+}
+/* line 945, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_form.ck_minimal .ck_guarantee {
+  color: #626262;
+  font-size: 12px;
+  text-align: center;
+  padding: 15px 0px 0px;
+  display: block;
+  clear: both;
+}
+/* line 953, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_form .ck_powered_by {
+  display: block;
+  color: #aaa;
+  font-size: 12px;
+}
+/* line 959, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_form .ck_powered_by:hover {
+  display: block;
+  color: #444;
+}
+/* line 964, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_converted_content {
+  display: none;
+  padding: 5%;
+  background: #fff;
+}
+/* line 970, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_form.ck_minimal.width400 .ck_subscribe_button, .aboutbottom .ck_form.ck_minimal.width400 input[type="email"] {
+  width: 100%;
+  float: none;
+  margin-top: 5px;
+}
+/* line 976, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .ck_slide_up, .aboutbottom .ck_modal, .aboutbottom .ck_slide_up .ck_minimal, .aboutbottom .ck_modal .ck_minimal {
+  min-width: 400px;
+}
+/* line 980, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+.aboutbottom .page .ck_form.ck_minimal {
+  margin: 50px auto;
+  max-width: 600px;
+}
+@media screen and (max-width: 480px) {
+  /* line 987, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+  .aboutbottom .ck_form.ck_minimal .ck_form_fields {
+    padding: 30px 25px 20px;
+  }
+  /* line 991, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/ckforms.scss */
+  .aboutbottom .ck_form.ck_minimal input, .aboutbottom .ck_form.ck_minimal input {
+    height: auto;
+  }
+}
+/* line 5, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/contacts.scss */
+.new_contact {
+  clear: both;
+  margin: 44px auto 0;
+  padding: 15px 100px;
+  border: 2px solid #2aa869;
+  border-left: none;
+  border-right: none;
+  color: #333;
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+}
+
+/* line 19, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/contacts.scss */
+.new_contact .new_contact {
+  border: none;
+  margin: 0;
+}
+
+/* line 24, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/contacts.scss */
+.new_contact h2 {
+  margin: 20px 0 0;
+  font-size: 35px;
+}
+
+/* line 29, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/contacts.scss */
+.new_contact input {
+  text-align: center;
+  height: 30px;
+  width: 200px;
+  font-size: 14px;
+  background-color: #f8f7f7;
+  border-radius: 4px;
+  border: 1px solid #d6d6d6;
+}
+
+/* line 40, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/contacts.scss */
+.new_contact .field textarea {
+  height: 200px;
+  width: 300px;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #f8f7f7;
+  border-radius: 4px;
+  border: 1px solid #d6d6d6;
+}
+
+/* line 51, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/contacts.scss */
+.new_contact .actions {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 736px) {
+  /* line 57, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/contacts.scss */
+  .new_contact {
+    padding: 25px 0;
+  }
+  /* line 60, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/contacts.scss */
+  .new_contact .new_contact {
+    padding: 10px 0;
+  }
+}
+@font-face {
+  font-family: GeorgiaItalic;
+  src: url(/assets/georgia_italic-798d681ed9e8c0f35ad52d39f1dc808297109eb6bcc86c35445045b96c2bec1e.ttf);
+}
+@font-face {
+  font-family: Linotype;
+  src: url(/assets/linotype-50a6a864a9124233028b049216375475c341b2c55e52a46599784971650f5a57.otf);
+}
+/* line 5, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/home.scss */
+.slider {
+  display: none;
+}
+
+/* line 9, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/home.scss */
+.slide {
+  height: 650px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/home.scss */
+.slide img {
+  width: 100%;
+  height: 650px;
+}
+
+/* line 20, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/home.scss */
+.slide-caption {
+  position: absolute;
+  width: 320px;
+  color: #fff;
+  text-align: left;
+  font-size: 60px;
+  line-height: 55px;
+  letter-spacing: 0px;
+  font-family: Raleway;
+}
+
+/* line 31, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/home.scss */
+.slide-caption a {
+  color: #fff;
+  font-family: 'Raleway';
+  font-size: 23px;
+  margin-left: 5px;
+}
+
+/* line 38, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/home.scss */
+.slide-caption a:hover {
+  color: #fff;
+}
+
+/* line 42, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/home.scss */
+.caption-one {
+  right: 80px;
+  top: 55px;
+}
+
+/* line 47, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/home.scss */
+.caption-two {
+  left: 50px;
+  top: 60px;
+}
+
+/* line 52, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/home.scss */
+.caption-three {
+  left: 40px;
+  top: 50px;
+}
+
+@media only screen and (max-width: 736px) {
+  /* line 60, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/home.scss */
+  .slide {
+    height: auto;
+    min-height: 270px;
+  }
+
+  /* line 65, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/home.scss */
+  .slide img {
+    height: auto;
+    min-height: 270px;
+  }
+
+  /* line 70, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/home.scss */
+  .slide-caption {
+    font-size: 22px;
+    line-height: normal;
+  }
+
+  /* line 75, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/home.scss */
+  .slide-caption a {
+    font-size: 10px;
+  }
+
+  /* line 79, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/home.scss */
+  .slide-caption.caption-one {
+    top: 40px;
+    left: 60%;
+    width: 130px;
+  }
+
+  /* line 85, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/home.scss */
+  .slide-caption.caption-three {
+    top: 20px;
+    left: 20px;
+    width: 30%;
+  }
+}
+/* line 1, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+body {
+  color: #333;
+  background: #fff;
+}
+/* line 5, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+body a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 400;
+}
+/* line 11, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+body a:hover {
+  color: #f36;
+}
+
+/* line 16, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+h1 {
+  font-size: 40px;
+  letter-spacing: 6.7px;
+  font-weight: 800;
+}
+
+/* line 22, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+h2 {
+  font-size: 50px;
+}
+
+/* line 26, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+h3 {
+  font-size: 16px;
+}
+
+/* line 30, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+p {
+  font-size: 16px;
+}
+
+/* line 34, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.bold {
+  font-weight: 800;
+}
+
+/* line 38, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.italic {
+  font-style: italic;
+}
+
+/* line 42, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.strong {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+/* line 48, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.title {
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+/* line 54, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.linotype {
+  font-family: Linotype;
+}
+
+/* line 58, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.georgia {
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+/* line 64, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.intro {
+  padding-left: 4px;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: GeorgiaItalic;
+}
+
+/* line 71, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.whitewrapper {
+  background: #fff;
+  margin-top: -30px;
+}
+
+/* line 76, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.container {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 30px 0;
+  letter-spacing: 0.5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 85, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.header {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* line 90, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+#notice {
+  padding-top: 20px;
+}
+
+/* line 94, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.logo {
+  margin-top: 20px;
+  width: 800px;
+}
+
+/* line 99, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.menu {
+  margin: 0 auto 5px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* line 105, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.menu .home img {
+  display: none;
+}
+
+/* line 109, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.menu-item {
+  display: inline-block;
+  width: 180px;
+  height: 50px;
+}
+
+/* line 115, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.menu-item span {
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  top: 13px;
+}
+
+/* line 122, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.active {
+  color: #f36;
+  font-size: 10px;
+}
+
+/* line 127, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.banner {
+  height: 650px;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* line 136, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.banner .photo-credit {
+  position: absolute;
+  bottom: -10px;
+  left: 245px;
+  font-size: 8px;
+  color: #aaa;
+}
+
+/* line 144, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.body {
+  margin: 20px 0;
+}
+
+/* line 148, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+label {
+  display: none;
+}
+
+/* line 152, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.mc-field-group {
+  float: left;
+  width: 300px;
+  margin: 0 12px;
+}
+
+/* line 158, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.mc-field-group input {
+  width: 250px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  height: 30px;
+}
+
+/* line 166, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+#mc-embedded-subscribe {
+  background-color: #333;
+  color: #eee;
+  border: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  width: 80px;
+  height: 30px;
+  margin: 2px 12px 0;
+}
+
+/* line 177, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+#mc-embedded-subscribe:hover {
+  background-color: #f36;
+}
+
+/* line 181, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.box {
+  margin: 20px 0 0;
+  padding: 30px 30px 10px;
+  width: 360px;
+  height: 210px;
+  float: right;
+  border: 1px solid #777;
+  clear: none;
+}
+
+/* line 191, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.box .mc-field-group {
+  width: 160px;
+  margin: 0 10px;
+}
+
+/* line 197, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.box .mc-field-group input {
+  width: 100%;
+}
+
+/* line 201, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.box h3 {
+  margin: 0 0 25px;
+  padding: 0;
+}
+
+/* line 206, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.box .clear {
+  clear: both;
+}
+
+/* line 210, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.box #mc-embedded-subscribe {
+  clear: both;
+  margin: 15px auto;
+}
+
+/* line 215, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.instagram {
+  font-family: Raleway;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* line 221, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.instagram .title {
+  font-size: 30px;
+}
+
+/* line 225, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+#instafeed {
+  margin: 30px auto;
+}
+
+/* line 229, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+#instafeed a {
+  margin: 0 5px;
+}
+
+/* line 233, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+#instafeed img {
+  width: 155px;
+}
+
+/* line 237, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.opt-in {
+  clear: both;
+  text-align: center;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+/* line 244, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.opt-in label {
+  display: none;
+}
+
+/* line 248, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.opt-in .mc-field-group {
+  float: left;
+  width: 200px;
+}
+
+/* line 253, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.opt-in .mc-field-group input {
+  width: 200px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  height: 30px;
+}
+
+/* line 261, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.opt-in #mc-embedded-subscribe {
+  margin: 3px 0;
+}
+
+/* line 265, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.copy {
+  clear: both;
+  height: auto;
+  padding: 20px 75px;
+}
+
+/* line 271, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.link-in-body {
+  color: #2aa869;
+  font-weight: bold;
+}
+
+/* line 276, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.copy p {
+  line-height: 25px;
+  color: #333;
+}
+
+/* line 281, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.thinner {
+  line-height: 10px;
+}
+
+/* line 285, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.break {
+  height: 250px;
+  margin: 30px 0 50px;
+  font-family: GeorgiaItalic;
+}
+
+/* line 291, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.break .photo {
+  float: left;
+  height: 650px;
+}
+
+/* line 296, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.break h2 {
+  padding: 80px 40px 80px 420px;
+  line-height: 30px;
+  font-weight: 800;
+}
+
+/* line 302, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.call-to-action {
+  margin: 40px 100px 0;
+  line-height: 25px;
+  font-family: GeorgiaItalic;
+}
+
+/* line 308, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.actions input {
+  color: #fff;
+  margin: 10px 0px 0px;
+  font-size: 20px;
+  background: #20ab73;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  text-shadow: none;
+  height: 40px;
+}
+
+/* line 326, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.footer {
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  background: #fff;
+}
+
+/* line 334, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.footer a:hover {
+  color: #555;
+}
+
+/* line 338, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.footer .first-row {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 343, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.footer .social-media, .footer .newsletter-footer, .footer .logo {
+  display: block;
+  height: 100px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+/* line 350, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.footer .logo {
+  height: 50px;
+  width: 300px;
+}
+
+/* line 355, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.footer .logo img {
+  width: 100%;
+}
+
+/* line 359, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.footer .logo:hover {
+  opacity: 0.7;
+}
+
+/* line 363, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.footer .logo p {
+  font-size: 33px;
+  padding-top: 40px;
+}
+
+/* line 368, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.newsletter-footer {
+  padding: 10px 80px;
+  width: 200px;
+  height: 100px;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  clear: none;
+}
+
+/* line 377, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.newsletter-footer .mc-field-group {
+  clear: both;
+  width: 160px;
+  margin: 0 auto;
+}
+
+/* line 383, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.newsletter-footer .mc-field-group input {
+  width: 200px;
+  margin: 5px 0;
+  padding-left: 10px;
+  height: 20px;
+  text-align: left;
+}
+
+/* line 394, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.newsletter-footer h3 {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+/* line 399, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.newsletter-footer #mc-embedded-subscribe {
+  margin: 15px auto;
+  width: 130px;
+  height: 25px;
+  padding: 4px;
+}
+
+/* line 406, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.newsletter-footer #mc-embedded-subscribe:hover {
+  background-color: #333;
+  opacity: 0.5;
+}
+
+/* line 411, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.footer .social-media {
+  height: 50px;
+  margin-top: 13px;
+}
+
+/* line 416, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.footer .social-media img:hover, .footer a:hover p {
+  color: #111;
+  opacity: 0.5;
+}
+
+/* line 421, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.footer .social-media img {
+  display: inline-block;
+  width: 16px;
+  margin: 0 10px;
+}
+
+/* line 427, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.footer .copyright {
+  clear: both;
+  font-size: 10px;
+  margin: 0 auto 10px;
+}
+
+/* line 433, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+.footer .copyright span {
+  margin: 0 10px;
+}
+
+/* #### Mobile Phones Portrait #### */
+@media only screen and (max-width: 736px) {
+  /* line 441, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+  .logo {
+    width: 100%;
+  }
+
+  /* line 445, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+  .menu-item {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* line 450, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+  .banner {
+    height: auto;
+    min-height: 270px;
+  }
+
+  /* line 455, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/main.scss */
+  .copy {
+    padding: 0 20px;
+    margin-top: 50px;
+  }
+}
+/* line 1, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/mcforms.scss */
+#mcmain {
+  width: 100%;
+  overflow: auto;
+  margin: 45px auto;
+  border-top: 2px solid #2aa869;
+  border-bottom: 2px solid #2aa869;
+}
+/* line 9, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/mcforms.scss */
+#mcmain .call_to_action, #mcmain .actual_form {
+  width: 50%;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+}
+/* line 15, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/mcforms.scss */
+#mcmain .call_to_action .form_content, #mcmain .actual_form .form_content {
+  margin: 40px 25px;
+}
+/* line 20, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/mcforms.scss */
+#mcmain .call_to_action {
+  border-right: 1px dotted #d6d6d6;
+  height: 100%;
+}
+/* line 27, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/mcforms.scss */
+#mcmain .call_to_action .form_content h2 {
+  font-size: 25px;
+}
+/* line 31, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/mcforms.scss */
+#mcmain .call_to_action .form_content p {
+  margin: 40px 40px 0;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 1.4em;
+}
+/* line 42, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/mcforms.scss */
+#mcmain .actual_form .mc-field-group {
+  margin: 5px auto 0;
+  width: 100%;
+}
+/* line 46, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/mcforms.scss */
+#mcmain .actual_form .mc-field-group input {
+  background-color: #f8f7f7;
+  border: 1px solid #d6d6d6;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  text-align: left;
+  padding: 10px 8px;
+  font-family: inherit;
+  font: 14px BlinkMacSystemFont;
+  box-sizing: border-box;
+}
+/* line 60, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/mcforms.scss */
+#mcmain .actual_form .clear {
+  clear: both;
+  margin: 10px auto;
+}
+/* line 64, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/mcforms.scss */
+#mcmain .actual_form .clear input {
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+  height: 41px;
+  background-color: #20ab73;
+  color: white;
+  font-weight: 800;
+  font: 18px BlinkMacSystemFont;
+  border-radius: 4px;
+  font-family: inherit;
+}
+/* line 80, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/mcforms.scss */
+#mcmain .actual_form .promise p {
+  font-size: 12px;
+  color: #626262;
+  line-height: 15px;
+}
+@media (max-width: 499px) {
+  /* line 91, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/mcforms.scss */
+  #mcmain .call_to_action, #mcmain .actual_form {
+    width: 100%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  /* line 97, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/mcforms.scss */
+  #mcmain .call_to_action .form_content, #mcmain .actual_form .form_content {
+    margin: 40px 25px;
+  }
+  /* line 102, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/mcforms.scss */
+  #mcmain .call_to_action {
+    border-right: none;
+    border-bottom: 1px dotted #d6d6d6;
+  }
+}
+/* line 5, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.posts {
+  margin-top: 50px;
+}
+
+/* line 9, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.post {
+  width: 220px;
+  height: 305px;
+  text-align: center;
+  margin: 19px;
+  display: inline-block;
+  float: left;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 20, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.blog-strong {
+  font-size: 30px;
+  text-align: left;
+  padding: 0 20px;
+  margin: 30px 30px 0;
+}
+
+/* line 27, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.blog-title {
+  font-size: 50px;
+  text-align: left;
+  padding: 0 20px;
+  margin: 30px 30px 0;
+}
+
+/* line 34, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.post img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* line 40, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.post-body {
+  text-align: left;
+  padding: 0 20px;
+}
+
+/* line 45, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+/* line 50, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 59, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.post-title {
+  margin: 5px 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* line 65, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.full-post {
+  margin: 50px auto 70px;
+  width: 80%;
+  text-align: center;
+  font-family: Raleway;
+}
+
+/* line 72, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.full-post img {
+  width: 100%;
+  object-fit: cover;
+  margin: 40px auto;
+  padding-right: 100px;
+}
+
+/* line 79, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.full-post .post-body {
+  margin: 30px 30px 0;
+  line-height: 20px;
+}
+
+/* line 84, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.new-post {
+  margin: 0 auto 20px;
+  padding: 25px 0 35px;
+  border: 1px solid #777;
+  color: #333;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+/* line 95, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.new-post h2 {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  margin-top: -3px;
+}
+
+/* line 101, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.new-post .field {
+  float: left;
+  margin: 0 20px;
+}
+
+/* line 106, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.new-post .field input {
+  width: 100%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  height: 30px;
+}
+
+/* line 114, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+.new-post .field textarea {
+  width: 100%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 123, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+  .posts {
+    margin: 20px auto 0;
+    text-align: center;
+  }
+
+  /* line 128, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+  .post {
+    display: inline-block;
+    float: none;
+    width: 80%;
+  }
+
+  /* line 134, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+  .post img {
+    width: 100%;
+    height: 200px;
+  }
+
+  /* line 139, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+  .full-post {
+    width: 100%;
+  }
+  /* line 142, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/posts.scss */
+  .full-post img {
+    width: 100%;
+  }
+}
+/* line 7, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/work_with_me.scss */
+.work-with-me p {
+  margin: 20px 0;
+  line-height: 22px;
+}
+/* line 12, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/work_with_me.scss */
+.work-with-me h2 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  margin: 20px 0;
+  line-height: 30px;
+}
+/* line 20, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/work_with_me.scss */
+.work-with-me .quote {
+  margin: 50px 100px;
+  text-align: justify;
+}
+/* line 25, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/work_with_me.scss */
+.work-with-me h3 {
+  margin: 30px 0;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+/* line 32, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/work_with_me.scss */
+.work-with-me h4 {
+  margin: 25px 0;
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+/* line 39, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/work_with_me.scss */
+.work-with-me .contact_me {
+  border: 1px solid #aaa;
+  margin: 20px auto;
+  max-width: 770px;
+  padding: 40px 100px;
+  display: table;
+}
+/* line 46, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/work_with_me.scss */
+.work-with-me .contact_me h2 {
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+/* line 55, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/work_with_me.scss */
+.work-with-me .contact_me .new_contact {
+  display: table-row;
+  border: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
+/* line 63, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/work_with_me.scss */
+.work-with-me .contact_me .new_contact .fields {
+  text-align: center;
+  margin: 25px auto 0;
+}
+/* line 68, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/work_with_me.scss */
+.work-with-me .contact_me .new_contact .field, .work-with-me .contact_me .new_contact .actions {
+  clear: both;
+  margin: 5px auto;
+}
+/* line 72, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/work_with_me.scss */
+.work-with-me .contact_me .new_contact .field input, .work-with-me .contact_me .new_contact .actions input {
+  height: 36px;
+  text-align: left;
+  padding-left: 10px;
+  width: 320px;
+}
+/* line 81, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/work_with_me.scss */
+.work-with-me .contact_me .new_contact .actions input {
+  height: 40px;
+  border: 1px solid #2aa869;
+  font-size: 18px;
+  font-family: inherit;
+  text-align: center;
+}
+
+@media only screen and (max-width: 736px) {
+  /* line 97, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/work_with_me.scss */
+  .work-with-me .quote {
+    margin: 60px 20px 65px;
+  }
+  /* line 100, /Users/dorianthornton/Documents/math/web dev/ashley/ashleyrenders/app/assets/stylesheets/work_with_me.scss */
+  .work-with-me .contact_me {
+    width: 100%;
+    padding: 40px 0;
+    border-left: none;
+    border-right: none;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+
+
+ */
+
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
