@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
+  resources :testimonials, only: [:index], path: 'kudos'
   resources :contacts, only: [:index, :create], path: 'contact'
   resources :posts, only: [:splash]
   resources :about, only: [:index]
   resources :home, only: [:index]
-  resources :work_with_me, only: [:index]
+  resources :work_with_me, only: [:index], path: 'hire_me'
 
   root 'home#index'
 

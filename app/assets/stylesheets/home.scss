@@ -54,6 +54,47 @@
   top: 50px;
 }
 
+.copy .testimonial {
+
+  display: table;
+  margin: 50px auto;
+
+  p {
+    line-height: 28px;
+    text-align: justify;
+
+  }
+
+  .testimony {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 20px;
+  }
+
+  .pic {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    height: 100%;
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin: 0;
+    }
+
+    .name {
+      text-align: center;
+    }
+
+  }
+  .name {
+    font-style: italic;
+    margin: 0;
+  }
+}
+
 @media only screen
   and (max-width : 736px) {
 
