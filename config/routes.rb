@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :testimonials, only: [:index]
   resources :contacts, only: [:index, :create], path: 'contact'
   resources :posts, only: [:splash]
   resources :about, only: [:index]

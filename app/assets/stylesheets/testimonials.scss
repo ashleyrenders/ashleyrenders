@@ -1,0 +1,54 @@
+// Place all the styles related to the Testimonials controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.testimonial.one {
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding: 30px;
+  box-sizing: border-box;
+
+  .name {
+    text-align: right;
+    font-style: italic;
+  }
+}
+
+.testimonials .testimonial {
+
+  display: table;
+  margin: 50px auto;
+
+  p {
+    margin: 15px 0;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .testimony {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 20px;
+  }
+
+  .pic {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    height: 100%;
+
+    img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      margin: 0;
+    }
+
+    .name {
+      text-align: center;
+      margin: 0;
+      font-style: italic;
+    }
+  }
+}
