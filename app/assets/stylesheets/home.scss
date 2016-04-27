@@ -57,7 +57,7 @@
 .copy .testimonial {
 
   display: table;
-  margin: 50px auto;
+  margin: 30px auto;
 
   p {
     line-height: 28px;
@@ -127,5 +127,20 @@
     top: 20px;
     left: 20px;
     width: 30%;
+  }
+
+  .copy .testimonial {
+
+    .testimony {
+      display: block;
+      clear: both;
+    }
+
+    .pic {
+      display: block;
+      clear: both;
+      text-align: center;
+      margin: 10px 0;
+    }
   }
 }

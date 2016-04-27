@@ -2,34 +2,62 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.testimonial.one {
+.testimonial.black {
   width: 100%;
-  color: white;
   background-color: black;
   padding: 30px;
   box-sizing: border-box;
 
+  p {
+    color: white;
+
+    a {
+      margin-left: 15px;
+      color: #2aa869;
+    }
+    a:hover {
+      color: #f36;
+    }
+  }
+
   .name {
     text-align: right;
     font-style: italic;
+    color: white;
   }
 }
 
-.testimonials .testimonial {
+.testimonial {
 
   display: table;
   margin: 50px auto;
+  color: #333;
 
   p {
     margin: 15px 0;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
+
+    a {
+      margin-left: 15px;
+      color: #2aa869;
+    }
+    a:hover {
+      color: #f36;
+    }
+  }
+
+  h6 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
   }
 
   .testimony {
     display: table-cell;
     vertical-align: middle;
-    padding: 0 20px;
+    padding: 0 40px;
+    text-align: justify;
   }
 
   .pic {
@@ -41,14 +69,33 @@
     img {
       width: 250px;
       height: 250px;
+      object-fit: cover;
       border-radius: 50%;
       margin: 0;
     }
 
     .name {
+      font-size: 14px;
       text-align: center;
       margin: 0;
       font-style: italic;
     }
   }
 }
+
+@media only screen
+  and (max-width : 736px) {
+
+    .testimonial {
+      .testimony {
+        display: block;
+        clear: both;
+      }
+
+      .pic {
+        display: block;
+        clear: both;
+        text-align: center;
+      }
+    }
+  }
